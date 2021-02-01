@@ -4,7 +4,7 @@ import os
 import traceback 
 
 app = Flask("KiKoS")
-markdowner = Markdown()	
+markdowner = Markdown() 
 
 
 @app.route("/")
@@ -13,26 +13,26 @@ def hello():
 
 @app.route("/<filename>")
 def static_file(filename):
-	try:
-		with open('static/html/' + filename + '.html', 'r') as f:
-			return render_template('longread.html', content=f.read())
-	except:
-		return "Not found!"
+    try:
+        with open('static/html/' + filename + '.html', 'r') as f:
+            return render_template('longread.html', content=f.read())
+    except:
+        return "Not found!"
 
 @app.route("/admin/reload")
 def reload():
-	for name in os.listdir('static/markdown'):
-		if name.endswith('.md'):
-			try:
-				print(name)
-				with open('static/markdown/' + name, 'r') as fin:
-					with open('static/html/' + name[:-2] + 'html', 'w') as fout:
-						fout.write(markdowner.convert(fin.read()))
-			except:
+    for name in os.listdir('static/markdown'):
+        if name.endswith('.md'):
+            try:
+                print(name)
+                with open('static/markdown/' + name, 'r') as fin:
+                    with open('static/html/' + name[:-2] + 'html', 'w') as fout:
+                        fout.write(markdowner.convert(fin.read()))
+            except:
                 print(traceback.get_exc())
-				return "error"
+                return "error"
 
-	return "ok"
+    return "ok"
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0')
