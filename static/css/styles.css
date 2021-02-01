@@ -1,0 +1,105 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+.header {
+	position: fixed;
+	width: 60%;
+	max-width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	left: 0;
+	top: 0;
+}	
+
+.links-container {
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	float: right;
+	padding-top: 5%;
+	height: 100px;
+	min-height: 100px;
+}
+
+#links {	
+	position: relative;
+	vertical-align: middle;
+	width: 100px;
+	font-size: 24px;
+	height: 100px;
+	text-align: center;
+}
+
+.content {
+	width: 60%;
+	max-width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 10%;
+	margin-bottom: 0;
+	padding: 0;
+	color: #111111;
+	font-size: 16pt;
+}
+
+.footer {
+	height: 30%;
+	min-height: 30%;
+}
+
+h1 {
+	text-align: center;
+	padding: 0 0 15% 0;
+	font-size: 40pt;
+}
+
+h2 {
+	text-align: center;
+	padding: 10% 10% 5% 10%;
+	font-size: 32pt;
+}
+
+h3 {
+	padding: 5% 10% 5% 10%;
+	font-size: 24pt;
+}
+
+p {
+	padding: 10px 10% 10px 10%;
+}
+
+ul, ol {	
+	padding: 10px 10% 10px 10%;
+	font-size: 14pt;
+	border-left: 5px solid #444;
+}
+
+li {
+	padding: 5px 0 5px 0;
+}
+
+p>img {
+	width: 60%;
+	min-width: 60%;
+	margin-left: 20%;
+	margin-right:20%;
+}
+
+#icon {
+	position: relative;
+	float: left;
+	padding: 5% 0 0 0;
+	width: 100px;
+}
+
+
+blockquote>p {
+	font-style: italic;
+	font-size: 14pt;
+	padding: 10px 0 10px 0;
+}
