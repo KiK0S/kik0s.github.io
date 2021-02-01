@@ -16,6 +16,10 @@
 	top: 0;
 }	
 
+a {
+	color: #333;
+}
+
 .links-container {
 	display: inline-block;
 	position: relative;
@@ -36,10 +40,10 @@
 }
 
 .content {
-	width: 60%;
-	max-width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
+	width: 70%;
+	max-width: 70%;
+	margin-left: 15%;
+	margin-right: 15%;
 	margin-top: 10%;
 	margin-bottom: 0;
 	padding: 0;
@@ -83,11 +87,11 @@ li {
 	padding: 5px 0 5px 0;
 }
 
-p>img {
-	width: 60%;
-	min-width: 60%;
-	margin-left: 20%;
-	margin-right:20%;
+img:not(#icon) {
+	margin-left: 30%;
+	margin-right: 30%;
+	width: 40%;
+	margin-bottom:
 }
 
 #icon {
@@ -97,9 +101,18 @@ p>img {
 	width: 100px;
 }
 
+blockquote>p>a {
+	font-style: italic;
+	font-size: 14pt;
+	padding: 10px 0 25px 0;
+	vertical-align: middle;
+	text-align: center;
+}
 
 blockquote>p {
 	font-style: italic;
 	font-size: 14pt;
 	padding: 10px 0 10px 0;
+	vertical-align: middle;
+	text-align: center;
 }
