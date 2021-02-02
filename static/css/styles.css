@@ -98,7 +98,7 @@ img:not(#icon) {
 	position: relative;
 	float: left;
 	padding: 5% 0 0 0;
-	width: 100px;
+	width: 100pt;
 }
 
 blockquote>p>a {
