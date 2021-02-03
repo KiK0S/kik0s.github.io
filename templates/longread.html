@@ -6,10 +6,15 @@
 	</head>
 	<body>
 		<div class="header">
-			<img src="{{ url_for('static',filename='img/icon.jpg') }}" id="icon">
-			<div class="links-container">
-				<span id="links">27325</span>
-			</div>
+
+			<img src="{{ url_for('static',filename='img/icon-home.png') }}" id="icon">
+			<img src="{{ url_for('static',filename='img/icon-27325.png') }}" id="icon">
+			<img src="{{ url_for('static',filename='img/icon-vk.png') }}" id="icon">
+			<img src="{{ url_for('static',filename='img/icon-github.png') }}" id="icon">
+			<img src="{{ url_for('static',filename='img/icon-instagram.png') }}" id="icon">
+			<img src="{{ url_for('static',filename='img/icon-telegram.png') }}" id="icon">
+			
+
 		</div>
 		<div class="content">
 			{% autoescape false %} {{content}} {% endautoescape %}

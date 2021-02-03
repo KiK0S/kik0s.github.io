@@ -1,19 +1,21 @@
 * {
-	margin: 0px;
-	padding: 0px;
+	margin: 0pt;
+	padding: 0pt;
 	font-family: "Helvetica Neue", sans-serif;
 }
 
 .header {
 	position: fixed;
-	width: 60%;
-	max-width: 60%;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	width: 100%;
+	max-width: 100%;
+	height: 20%;
+	min-height: 20%;
+	margin-top: 0pt;
+	margin-bottom: 0pt;
+	padding-left: 18%;
 	left: 0;
 	top: 0;
+	background-color: #fff;
 }	
 
 a {
@@ -26,24 +28,24 @@ a {
 	vertical-align: middle;
 	float: right;
 	padding-top: 5%;
-	height: 100px;
-	min-height: 100px;
+	height: 100pt;
+	min-height: 100pt;
 }
 
 #links {	
 	position: relative;
 	vertical-align: middle;
-	width: 100px;
-	font-size: 24px;
-	height: 100px;
+	width: 100pt;
+	font-size: 24pt;
+	height: 100pt;
 	text-align: center;
 }
 
 .content {
-	width: 70%;
-	max-width: 70%;
-	margin-left: 15%;
-	margin-right: 15%;
+	width: 80%;
+	max-width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 	margin-top: 10%;
 	margin-bottom: 0;
 	padding: 0;
@@ -74,20 +76,20 @@ h3 {
 }
 
 p {
-	padding: 10px 10% 10px 10%;
+	padding: 10pt 10% 10pt 10%;
 }
 
 ul, ol {	
-	padding: 10px 10% 10px 10%;
+	padding: 10pt 10% 10pt 10%;
 	font-size: 14pt;
-	border-left: 5px solid #444;
+	border-left: 5pt solid #444;
 }
 
 li {
-	padding: 5px 0 5px 0;
+	padding: 5pt 0 5pt 0;
 }
 
-img:not(#icon) {
+img:not(#icon):not(#home) {
 	margin-left: 30%;
 	margin-right: 30%;
 	width: 40%;
@@ -96,15 +98,30 @@ img:not(#icon) {
 
 #icon {
 	position: relative;
-	float: left;
-	padding: 5% 0 0 0;
-	width: 100pt;
+	display: inline;
+	float: center;
+	vertical-align: middle;
+	margin-top: 3%;
+	margin-right: 5pt;
+	height: 30%;
+}
+
+#home {
+	position: relative;
+	display: inline;
+	float: center;
+	vertical-align: middle;
+	margin-top: 3%;
+	margin-right: 10pt;
+	padding-right: 10pt;
+	border-right: 4pt solid #555;
+	height: 30%;
 }
 
 blockquote>p>a {
 	font-style: italic;
 	font-size: 14pt;
-	padding: 10px 0 25px 0;
+	padding: 10pt 0 25pt 0;
 	vertical-align: middle;
 	text-align: center;
 }
@@ -112,7 +129,7 @@ blockquote>p>a {
 blockquote>p {
 	font-style: italic;
 	font-size: 14pt;
-	padding: 10px 0 10px 0;
+	padding: 10pt 0 10pt 0;
 	vertical-align: middle;
 	text-align: center;
 }

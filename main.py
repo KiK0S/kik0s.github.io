@@ -50,10 +50,6 @@ def index():
             except:
                 pass
 
-@app.route("/")
-def hello():
-    return "Hello World!"
-
 @app.route("/<filename>")
 def static_file(filename):
     try:
@@ -61,6 +57,11 @@ def static_file(filename):
             return render_template('longread.html', content=f.read())
     except:
         return "Not found!"
+
+
+@app.route("/")
+def hello():
+    return static_file('index')
 
 @app.route("/admin/reload")
 def reload():
