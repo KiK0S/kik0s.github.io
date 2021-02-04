@@ -7,7 +7,7 @@
 	<body>
 		<div class="header">
 
-            <a href=""><img src="{{ url_for('static',filename='img/icon-home.png') }}" id="home">
+            <a href="/"><img src="{{ url_for('static',filename='img/icon-home.png') }}" id="home">
 			</a><a href="https://vk.com/blog_27325"><img src="{{ url_for('static',filename='img/icon-27325.png') }}" id="icon">
 			</a><a href="https://vk.com/i_tried_to_name_myself_kikos"><img src="{{ url_for('static',filename='img/icon-vk.png') }}" id="icon">
 			</a><a href="https://github.com/KiK0S"><img src="{{ url_for('static',filename='img/icon-github.png') }}" id="icon">
@@ -20,6 +20,9 @@
 			{% autoescape false %} {{content}} {% endautoescape %}
 		</div>
 		<div class="footer">
+			<a> (с) kik0s.ru</a> <br>
+			<a> Разрешается использоание материалов в некоммерческих целях и с указанием источника</a> <br>
+			<a> У сайта открытый исходный код, репозиторий  находится вот <a href="https://github.com/KiK0S/kikos-ru">тут</a>. Исправления и дополнения приветствуются</a>
 		</div>
 	</body>
 <html>

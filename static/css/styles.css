@@ -18,6 +18,13 @@
 	background-color: #fff;
 }	
 
+.footer {
+	width: 100%;
+	max-width: 100%;
+	padding-left: 10%;
+	margin-top: 10%;
+}
+
 a {
 	color: #333;
 }
