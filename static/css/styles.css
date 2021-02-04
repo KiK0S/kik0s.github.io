@@ -12,7 +12,7 @@
 	min-height: 10%;
 	margin-top: 0pt;
 	margin-bottom: 0pt;
-	padding-left: 18%;
+	padding-left: 10%;
 	left: 0;
 	top: 0;
 	background-color: #fff;
@@ -60,7 +60,7 @@ a {
 
 h1 {
 	text-align: center;
-	padding: 0 0 15% 0;
+	padding: 15% 0 15% 0;
 	font-size: 40pt;
 }
 
@@ -101,9 +101,9 @@ img:not(#icon):not(#home) {
 	display: inline;
 	float: center;
 	vertical-align: middle;
-	margin-top: 3%;
+	margin-top: 1%;
 	margin-right: 5pt;
-	height: 30%;
+	height: 70%;
 }
 
 #home {
@@ -111,11 +111,11 @@ img:not(#icon):not(#home) {
 	display: inline;
 	float: center;
 	vertical-align: middle;
-	margin-top: 3%;
+	margin-top: 1%;
 	margin-right: 10pt;
 	padding-right: 10pt;
 	border-right: 4pt solid #555;
-	height: 30%;
+	height: 70%;
 }
 
 blockquote>p>a {
