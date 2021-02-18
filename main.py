@@ -57,8 +57,10 @@ def index():
 def static_file(filename):
     try:
         with open('static/html/' + filename + '.html', 'r') as f:
-            return render_template('longread.html', content=f.read())
+            title = next(f)
+            return render_template('longread.html', content=title + f.read(), title=title[4:-6])
     except:
+        traceback.print_exc()
         return "Not found!"
 
 
