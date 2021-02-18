@@ -49,6 +49,7 @@ def index():
                 send_photo(photo_url, caption_ = 'Комментировать лучше в дискасс @chat_27325')
             except:
                 pass
+        return 'ok'
 
 @app.route("/<filename>")
 def static_file(filename):
@@ -81,4 +82,4 @@ def reload():
     return "ok"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(host='0.0.0.0', port=80)
