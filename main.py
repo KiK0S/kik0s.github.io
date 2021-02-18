@@ -8,6 +8,7 @@ from telegram import Bot, ParseMode
 from os import system
 
 app = Flask("KiKoS")
+
 markdowner = Markdown() 
 
 token_TG = json.load(open('secret_data.json', 'r'))['token_TG']
@@ -20,6 +21,7 @@ def send_text(text):
 def send_photo(photo, caption_ = ''):
     bot = Bot(token_TG)
     bot.send_photo(channel_ID, photo, caption = caption_, parse_mode=ParseMode.HTML)
+
 
 @app.route("/admin/telegram", methods=['POST'])
 def index():
@@ -80,4 +82,4 @@ def reload():
     return "ok"
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=80)
+    app.run(host='0.0.0.0')
