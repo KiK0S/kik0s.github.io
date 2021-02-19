@@ -2,6 +2,7 @@ import json
 from time import sleep
 import requests
 from telegram import Bot, ParseMode
+from os import system
 
 token = json.load(open('secret_data.json', 'r'))['tokens'][0]
 kikos_id = int(json.load(open('secret_data.json', 'r'))['tg_kik0s_id'])
@@ -12,6 +13,7 @@ def send_error(message):
 	bot.send_message(kikos_id, str(message))
 
 def reload():
+	system('git pull')
 	r = requests.get('http://localhost:5000/admin/' + token + '/reload')
 	if r.status_code == 200 and r.text == 'ok':
 		return
@@ -19,5 +21,5 @@ def reload():
 
 if __name__ == "__main__":
 	while True:
-		sleep(60)
+		sleep(1800)
 		reload()
