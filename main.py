@@ -13,6 +13,7 @@ markdowner = Markdown()
 
 token_TG = json.load(open('secret_data.json', 'r'))['token_TG']
 channel_ID = int(json.load(open('secret_data.json', 'r'))['channel_ID'])
+admin_tokens = json.load(open('secret_data.json', 'r'))['tokens']
 
 def send_text(text):
     bot = Bot(token_TG)
@@ -68,8 +69,10 @@ def static_file(filename):
 def hello():
     return static_file('index')
 
-@app.route("/admin/reload")
-def reload():
+@app.route("/admin/<token>/reload")
+def reload(token):
+    if token not in admin_tokens:
+        return "sorry, you don't have enough permissions"
     for name in os.listdir('static/markdown'):
         if name.endswith('.md'):
             try:
