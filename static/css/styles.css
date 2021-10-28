@@ -90,6 +90,11 @@ h3 {
 	font-size: 24pt;
 }
 
+h4 {
+	padding: 5% 10% 2% 10%;
+	font-size: 20pt;
+}
+
 p {
 	padding: 10pt 10% 10pt 10%;
 }
