@@ -62,8 +62,8 @@ I did robotics in high school. I was a participant in "Robotraffic" competition 
 
 ## Something else
 
-* Gold prize winner All-Russian school programming olympiad 2021
-* Silver prize winner All-Russian school programming olympiad 2020
+* Gold prize winner All-Russian school programming olympiad 2019
+* Silver prize winner All-Russian school programming olympiad 2018
 * Candidate for Master of Sports in orienteering
 * Silver prize winner All-Russian Spartakiad of students in orienteering 2017
 * English knowledge: B2
