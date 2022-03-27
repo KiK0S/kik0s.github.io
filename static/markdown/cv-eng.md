@@ -3,7 +3,8 @@
 Amelichev Konstantin, 2002/01/11 <br>
 [kostya.amelichev@gmail.com](mailto:kostya.amelichev@gmail.com) <br>
 [teleram: kik0s](https://t.me/kik0s) <br>
-[github: kik0s](https://github.com/kik0s) 
+[github: kik0s](https://github.com/kik0s) <br>
+[codeforces: kikos (rating 2184](https://codeforces.com/profile/KiKoS)
 
 ## Education
 
