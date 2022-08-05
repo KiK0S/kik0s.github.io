@@ -8,18 +8,18 @@ Amelichev Konstantin, 2002/01/11 <br>
 [<ins>codeforces: kikos(rating 2184)</ins>](https://codeforces.com/profile/KiKoS)
 
 **C++/Rust/Python developer**<br>
-Experience in competitive programming, product and infrastructure development, research. Interested in challenging problems.
+Experience in competitive programming, product and infrastructure development, research. Applied my coding skills in different areas such as marketing, high frequency trading, teaching. Interested in challenging problems.
 
 ## Work Experience
 
 * _2022 - nowadays_ <br>
-***High Nu:*** infrastructure development. **Stack**: Rust, Python, ansible, linux, mongoDB.
-
+***High Nu:*** infrastructure development.<br>
+Stack: Rust, Python, ansible, linux, mongoDB. <br>
 Responsibilities: processing data from cryptocurrency exchanges, sppeding up bottlenecks, setting up services for continuous data processing/trading/simulation.
 
 * _2020 - 2022_ <br>
-**Tinkoff.ru**: developer of highload services in advertising technologies (e.g. DMP, DSP in [<ins>real-time bidding model</ins>](http://rtb-media.ru/wiki/)), which are used for personal recomendations. **Stack**: C++, Python, Lua, aerospike, mysql, protobuf, prometheus, graphite.
-
+**Tinkoff.ru**: developer of highload services in advertising technologies (e.g. DMP, DSP in [<ins>real-time bidding model</ins>](http://rtb-media.ru/wiki/)), which are used for personal recomendations. <br>
+Stack: C++, Python, Lua, aerospike, mysql, protobuf, prometheus, graphite. <br>
 Responsibilities: developing new features for admin console and API, integrating new data providers, developing like/save mechanics for personal feed, mvp development for search of creatives based on image content.
 
 * _2019 - 2022_ <br>
@@ -27,9 +27,6 @@ Responsibilities: developing new features for admin console and API, integrating
 
 * _2019 - 2022_ <br>
 Author and/or developer of 10+ problems for olympiads in programming: [<ins>Open olympiad in programming</ins>](https://olympiads.ru/zaoch), [<ins>Moscow team schools olympiad in programming</ins>](https://olympiads.ru/team), [<ins>Keldysh's olympiad</ins>](https://www.jroi.ru/), [<ins>Moscow school olympiad in informatics</ins>](https://mos-inf.olimpiada.ru/)
-
-* _2020 - 2022_ <br>
-Author and/or developer of problems for qualification contests at Tinkoff's educational projects and internships
 
 * _2021_ <br>
 Developer of [<ins>an exhibit for robot's festival</ins>](https://xn--80acbclsxybashnis9k.xn--p1ai/). Web-interfaces for projector and tablet, system was able to draw ML-generated (GAN-based) pictures in different styles by user selection. Stack: python, flask. Abilities: Web, ML.
@@ -77,10 +74,6 @@ I did robotics in high school. I was a participant in "Robotraffic" competition 
 #### [<ins>Multiplayer arcade tower-defense</ins>](https://github.com/kik0s/dfvp) (_june 2018 - august 2018_).
 
 Local-network multiplayer game in tower defense genre, inspired by [<ins>DUAL</ins>](https://letsdual.com/) game. Stack: python, socket, pygame. Abilities: 2d graphics, animation, low-level network.
-
-#### [<ins>Voice identification</ins>](https://github.com/KiK0S/MLLP) (_june 2018 - june 2021_). 
-
-Algorithmic processing voice in audio, spectral analysis, creating a vector representation of voice. Stack: python
 
 ## Something else
 
