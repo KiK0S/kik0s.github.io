@@ -15,7 +15,7 @@ Experience in competitive programming, product and infrastructure development, r
 * _2022 - nowadays_ <br>
 ***High Nu:*** infrastructure development. **Stack**: Rust, Python, ansible, linux, mongoDB.
 
-Responsibilities: processing data from cryptocurrency exchanges, sppeding up bottlenecks, setting up services for continuous data processing&trading&simulation.
+Responsibilities: processing data from cryptocurrency exchanges, sppeding up bottlenecks, setting up services for continuous data processing/trading/simulation.
 
 * _2020 - 2022_ <br>
 **Tinkoff.ru**: developer of highload services in advertising technologies (e.g. DMP, DSP in [<ins>real-time bidding model</ins>](http://rtb-media.ru/wiki/)), which are used for personal recomendations. **Stack**: C++, Python, Lua, aerospike, mysql, protobuf, prometheus, graphite.
