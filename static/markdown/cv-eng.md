@@ -55,7 +55,7 @@ I study applied math and informatics, my specialization is distributed systems. 
 
 Polygon-based library for processing 3d scene and render it in real-time. Stack: linear algebra, c++, cmake, SFML, Doxygen. Abilities: design a library, unit-testing, documentation, computer graphics
 
-#### [<ins>OpenCV experiments</ins>](https://github.com/kik0s/3d-framework) (_summer 2022_).
+#### [<ins>OpenCV experiments</ins>](https://github.com/kik0s/cv_projects) (_summer 2022_).
 
 Rust adaptation of mini proejcts from udemy computer vision course, originally written in python. 
 
