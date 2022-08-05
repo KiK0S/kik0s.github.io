@@ -13,7 +13,7 @@ Experience in competitive programming, product and infrastructure development, r
 ## Work Experience
 
 * _2022 - nowadays_ <br>
-***High Nu:*** infrastructure development.<br>
+***High Nu:*** infrastructure development in high frequency trading.<br>
 Stack: Rust, Python, ansible, linux, mongoDB. <br>
 Responsibilities: processing data from cryptocurrency exchanges, sppeding up bottlenecks, setting up services for continuous data processing/trading/simulation.
 
