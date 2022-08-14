@@ -1,4 +1,0 @@
-requests
-flask
-markdown2
-python-telegram-bot
