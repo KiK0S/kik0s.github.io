@@ -1,14 +1,31 @@
-# CV
+<br>
 
-Amelichev Konstantin, 2002/01/11 <br>
-+995 595-33-53-27 <br>
+<div style="justify-content: space-around; display: flex; align-items: center;"> <div width=200px><img style="object-fit:cover; border-radius:70%; margin: 0 auto;" width=200px src="https://avatars.githubusercontent.com/u/20306967"><p>Amelichev Konstantin, 2002/01/11</p></div>
+
+<div>
+<p style="align-items: center;">
+
+**C++/Rust/Python developer**<br>
+<p style="width: 400px">
+Experience in competitive programming, product and infrastructure development, research. Applied my coding skills in different areas such as marketing, high frequency trading, teaching. Interested in challenging problems.
+</p>
+</p>
+</div>
+
+<div>
+<p style="align-items: center;">
+Phone number: <ins>+995 595-33-53-27</ins>. Currently in Tbilisi, Georgia <br>
 [<ins>kostya.amelichev@gmail.com</ins>](mailto:kostya.amelichev@gmail.com) <br>
 [<ins>teleram: kik0s</ins>](https://t.me/kik0s) <br>
 [<ins>github: kik0s</ins>](https://github.com/kik0s) <br>
-[<ins>codeforces: kikos(rating 2184)</ins>](https://codeforces.com/profile/KiKoS)
+[<ins>codeforces: kikos</ins>](https://codeforces.com/profile/KiKoS) <br>
+</p>
+</div>
 
-**C++/Rust/Python developer**<br>
-Experience in competitive programming, product and infrastructure development, research. Applied my coding skills in different areas such as marketing, high frequency trading, teaching. Interested in challenging problems.
+</div><br>
+
+<div style="justify-content: space-around; display: flex;">
+<div style="padding-right: 20px;">
 
 ## Work Experience
 
@@ -23,21 +40,28 @@ Stack: C++, Python, Lua, aerospike, mysql, protobuf, prometheus, graphite. <br>
 Responsibilities: developing new features for admin console and API, integrating new data providers, developing like/save mechanics for personal feed, mvp development for search of creatives based on image content.
 
 * _2019 - 2022_ <br>
-**Tinkoff Generation**: teacher in educational project for high school students. I teach algorithms and data structures for competetive programming.
-
-* _2019 - 2022_ <br>
+Teacher in [educational project](https://fintech.tinkoff.ru/study/generation/algo/) for high school students. I teach advanced algorithms and data structures for competetive programming. <br>
 Author and/or developer of 10+ problems for olympiads in programming: [<ins>Open olympiad in programming</ins>](https://olympiads.ru/zaoch), [<ins>Moscow team schools olympiad in programming</ins>](https://olympiads.ru/team), [<ins>Keldysh's olympiad</ins>](https://www.jroi.ru/), [<ins>Moscow school olympiad in informatics</ins>](https://mos-inf.olimpiada.ru/)
 
 * _2021_ <br>
 Developer of [<ins>an exhibit for robot's festival</ins>](https://xn--80acbclsxybashnis9k.xn--p1ai/). Web-interfaces for projector and tablet, system was able to draw ML-generated (GAN-based) pictures in different styles by user selection. Stack: python, flask. Abilities: Web, ML.
 
+* _2020_ <br>
+Did voluntary development for [Covidarnost](https://www.instagram.com/covidarnost/) project, which was aimed to help people during lockdown. I was developing telegram bot for people who want to find their neighbors that are ready to cooperate in buing food and another supplies. Stack: python, python-telegram-bot, GIS.
+
+</div>
+
+<div style="float:right;" width=400px>
+
 ## Education
 
 **_2019 - 2023_**
 
-Higher school of economics, Computer Science Department.
+Higher school of economics, Computer Science Faculty, Bsc. 
 
-I study applied math and informatics, my specialization is distributed systems. Favorite courses: Distributed systems, orerational systems, algorithms and data structures, linear algebra.
+I study applied math and informatics, my specialization is distributed systems. Favorite courses: Distributed systems, orerational systems, algorithms and data structures, linear algebra, concurrency.
+
+<br>
 
 ## Abilities
 
@@ -48,6 +72,17 @@ I study applied math and informatics, my specialization is distributed systems. 
 **Tools, databeses, etc:** Redis, Cmake, Aerospike, Redis, MySQL, LUA, GDB, Valgrind, Gperf, protobuf, grpc.
 
 **Some irrelevant experience:** Java, Android development, HTML+CSS+JS, Unity+C#.
+
+<br>
+
+## Courses completed
+
+* CS50 Introduction in Game Development: Unity, C#, Lua, Love2d, Game development, state machines, sprites, cameras, lights, scenes, shadows and so on.
+* Udemy Master Computer Vision™ OpenCV4 in Python with Deep Learning: OpenCV, Python, [rust adaptation of mini projects](https://github.com/kik0s/cv_projects)
+* Udemy Deep Learning Computer Vision™ CNN, OpenCV, YOLO, SSD & GANs: Deep Learning in computer vision
+* Stepik.org: C++, Python, Algorithms, Linux, Git. Have a look at them on [my linkedin](https://www.linkedin.com/in/konstantin-amelichev-66a546219/details/certifications/)
+
+</div></div>
 
 ## Projects
 
@@ -69,7 +104,7 @@ AI for Codenames game and interface as telegram bot. Stack: python, python-teleg
 
 #### [<ins>Robotics</ins>](https://github.com/IT108/locker1540-arduino) (_2015 - 2019_).
 
-I did robotics in high school. I was a participant in "Robotraffic" competition and prize winner in several categories. Major project: system for controlling access to school class (electromagnetic locker, with smart cards for unlocking door, personal voice greeting, smart lights in class). Stack: C, Arduino, microcontrollers, soldering iron, drill, 3ds max. Abilities: create a detail from any supplies or 3d-print it, low-level programming (sometimes registers of microcontroller), projecting of circuit board.
+I did robotics in high school. I was a participant in "Robotraffic" competition and prize winner in several categories. Major project: system for controlling access to school class (electromagnetic locker, with smart cards for unlocking door, personal voice greeting, smart lights in class). Stack: C, Arduino, microcontrollers, soldering iron, drill, 3ds max. Abilities: create a detail from any supplies or 3d-print it, low-level programming (all way to registers of microcontroller), projecting of circuit board.
 
 #### [<ins>Multiplayer arcade tower-defense</ins>](https://github.com/kik0s/dfvp) (_june 2018 - august 2018_).
 
