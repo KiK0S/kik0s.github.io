@@ -51,17 +51,17 @@ I study applied math and informatics, my specialization is distributed systems. 
 
 ## Projects
 
+#### [<ins>Service for finding similar neighbors, content-based image search</ins>](https://github.com/kik0s/similarity-search-coursework) (_january 2022 - august 2022_).
+
+Course work paper written about service developed in Tinkoff.ru. Research of ANN problem. Presenting architecture of search engine for any type of objects. This approach led to content-based image search service. Skills: C++, Docker, Swagger, system design, research, algorithms.
+
 #### [<ins>Library for 3d-graphics</ins>](https://github.com/kik0s/3d-framework) (_august 2020 - june 2021_).
 
-Polygon-based library for processing 3d scene and render it in real-time. Stack: linear algebra, c++, cmake, SFML, Doxygen. Abilities: design a library, unit-testing, documentation, computer graphics
+Polygon-based library for processing 3d scene and render it in real-time. Stack: linear algebra, c++, cmake, SFML, Doxygen. Abilities: design a library, unit-testing, documentation, computer graphics, research.
 
 #### [<ins>OpenCV experiments</ins>](https://github.com/kik0s/cv_projects) (_summer 2022_).
 
-Rust adaptation of mini proejcts from udemy computer vision course, originally written in python. 
-
-#### <ins>Service for finding similar neighbors, content-based image search</ins> (_january 2022 - august 2022_).
-
-Course work paper written about service developed in Tinkoff.ru. Research of ANN problem. Presenting architecture of search engine for any type of objects. This approach led to content-based image search service.
+Rust adaptation of mini proejcts from udemy computer vision course, originally written in python. Skills: Rust, OpenCV, image processing
 
 #### [<ins>Codenames Telegram bot + AI</ins>](https://github.com/kik0s/codememes) (_june 2019 - august 2019_).
 
