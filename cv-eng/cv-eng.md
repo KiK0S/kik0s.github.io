@@ -25,7 +25,7 @@ English: advanced C1 (certified IELTS 7.5)<br>
 Russian: native
 </p>
 </div>
-</div><br>
+</div>
 <div style="justify-content: space-around; display: flex;">
 <div style="padding-right: 20px;">
 
@@ -57,17 +57,17 @@ Polygon-based library for processing 3d scenes and rendering them in real-time. 
 
 <div style="float:right;" width=1000px>
 
-# Education
-
-**Higher School of Economics**, Computer Science Faculty, Bsc. (_2019 - 2023_)
-I study applied math and informatics, my specialization is distributed systems. Favorite courses: Distributed systems, operational systems, algorithms and data structures, linear algebra, concurrency.
-
 # Abilities
 
 **Main stack:**  C++, Rust, Python, Git, Linux, Ansible, Docker. <br>
 **Libraries:** STL, Boost, OpenCV, serde, numpy, pandas, matplotlib, scikit-learn, pytorch, keras, flask, python-telegram-bot. <br>
 **Tools, databeses, etc:** Redis, Cmake, Aerospike, Redis, MySQL, mongoDB, Lua, GDB, Valgrind, Gperf, protobuf, grpc, prometheus, graphite. <br>
 **Some irrelevant experience:** Java, Android development, HTML+CSS+JS, Unity+C#, Markdown, Latex.
+
+# Education
+
+**Higher School of Economics**, Computer Science Faculty, Bsc. (_2019 - 2023_)
+I study applied math and informatics, my specialization is distributed systems. Favorite courses: Distributed systems, operational systems, algorithms and data structures, linear algebra, concurrency.
 
 # Courses completed
 * CS50 Introduction in Game Development: Unity, C#, Lua, Love2d, Game development, state machines, sprites, cameras, lights, scenes, shadows, and so on.
