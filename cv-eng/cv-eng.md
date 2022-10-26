@@ -21,7 +21,8 @@ Experience in competitive programming, product and infrastructure development, a
 [<ins>codeforces: kikos</ins>](https://codeforces.com/profile/KiKoS) <br>
 Phone number: <ins>+995 595-33-53-27</ins>.<br>
 Currently in Tbilisi, Georgia<br>
-English knowledge: B2
+English: advanced C1 (certified IELTS 7.5)<br>
+Russian: native
 </p>
 </div>
 </div><br>
