@@ -2,11 +2,11 @@
 <div style="justify-content: space-around; display: flex; align-items: center;"> <div width=170px><img style="object-fit:cover; border-radius:70%; margin: 0 auto;" width=170px src="https://avatars.githubusercontent.com/u/20306967"><p style="text-align: center;">Amelichev Konstantin<br>2002/01/11</p></div>
 <div style="padding-right: 10px;">
 
-# C++/Rust/Python developer
+# Sowtware developer
 
 <p style="width: 300px; padding-bottom: 45px;">
-Experience in competitive programming, product and infrastructure development, and research. Applied my coding skills in different areas such as marketing, high-frequency trading, and teaching. Interested in challenging problems.
-</p>
+Experience in competitive programming, product and infrastructure development, and research. Applied my coding skills in different areas such as marketing, high-frequency trading, AI and teaching. Interested in challenging problems.<br>
+Keywords: Go / Rust / Python / C+</p>
 </div>
 <div>
 
@@ -30,19 +30,17 @@ Russian: native
 <div style="padding-right: 20px;">
 
 # Work Experience
-* **High Nu** (_2022 - nowadays_) <br>
+* **Neiro.ai** (_2022 (autumn) - nowadays_) <br>
+Backend developer in AI startup. Working on a service that absorbs all common logic for ML APIs, makes rough APIs from different ML teams fault-tolerant, observable, accessible in one unite format. Responsible for B2B demos & API availability.
+* **High Nu** (_2022 (spring-summer)_) <br>
 Infrastructure developer in high-frequency trading.<br>
-Responsibilities: processing data from cryptocurrency exchanges, speeding up bottlenecks, setting up services for continuous data processing/trading/simulation.
+I was processing data from cryptocurrency exchanges rest/websocket API's, speeding up bottlenecks, setting up services for continuous data processing/trading/simulation.
 * **Tinkoff.ru** (_2020 - 2022_) <br>
 Software developer of high-load services in advertising technologies (e.g. DMP, DSP in [<ins>real-time bidding model</ins>](http://rtb-media.ru/wiki/)), which are used for personal recommendations. <br>
-Responsibilities: developing new features for admin console and API, integrating new data providers, developing like/save mechanics for personal feed, MVP development for the search of creatives based on image content.
+I was developing new features for admin console and API, integrating new data providers, creating like/save mechanics for personal feed. I also did MVP development for the search of creatives based on image content.
 * **Teaching** (_2019 - 2022_) <br>
 Teacher in [<ins>an educational project</ins>](https://fintech.tinkoff.ru/study/generation/algo/) for high school students. I teach advanced algorithms and data structures for competitive programming. <br>
 Author and/or developer of 10+ problems for Olympiads in programming: [<ins>Open Olympiad in programming</ins>](https://olympiads.ru/zaoch), [<ins>Moscow team schools Olympiad in programming</ins>](https://olympiads.ru/team), [<ins>Keldysh's Olympiad</ins>](https://www.jroi.ru/), [<ins>Moscow school Olympiad in informatics</ins>](https://mos-inf.olimpiada.ru/)
-* **Robot's world** (_2021_) <br>
-Developer of [<ins>an exhibit for robot's festival</ins>](https://xn--80acbclsxybashnis9k.xn--p1ai/). Web interfaces for projector and tablet, the system was able to draw ML-generated (GAN-based) pictures in different styles by user selection.
-* **Covidarnost** (_2020_) <br>
-Did voluntary development for [<ins>Covidarnost</ins>](https://www.instagram.com/covidarnost/) project, which was aimed to help people during the lockdown. I was developing a telegram bot for people who want to find their neighbors that are ready to cooperate in buying food and other supplies.
 
 # Projects
 
@@ -59,10 +57,10 @@ Polygon-based library for processing 3d scenes and rendering them in real-time. 
 
 # Abilities
 
-**Main stack:**  C++, Rust, Python, Git, Linux, Ansible, Docker. <br>
-**Libraries:** STL, Boost, OpenCV, serde, numpy, pandas, matplotlib, scikit-learn, pytorch, keras, flask, python-telegram-bot. <br>
-**Tools, databeses, etc:** Redis, Cmake, Aerospike, Redis, MySQL, mongoDB, Lua, GDB, Valgrind, Gperf, protobuf, grpc, prometheus, graphite. <br>
-**Some irrelevant experience:** Java, Android development, HTML+CSS+JS, Unity+C#, Markdown, Latex.
+**Main stack:**  C++, Rust, Python, Go, Git, Linux, Ansible, Docker. <br>
+**Libraries:** STL, Boost, OpenCV, serde, numpy, pandas, matplotlib, scikit-learn, pytorch, keras, flask, python-telegram-bot, streamlit. <br>
+**Tools, databeses, etc:** Redis, Cmake, Aerospike, Redis, MySQL, mongoDB, Lua, GDB, Valgrind, Gperf, protobuf, grpc, grpc-gateway, terraform, k8s, prometheus, graphite. <br>
+**Less relevant experience:** Java, Android development, HTML+CSS+JS, Unity+C#, Markdown, Latex.
 
 # Education
 
