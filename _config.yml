@@ -76,7 +76,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-include: ['_pages', '_pages/politics']
+include: ['_pages']
 
 paginate: 6
 paginate_path: /page:num/
