@@ -1,6 +1,5 @@
 ---
 layout: post
-title: Вредные советы к региону
 permalink: /region-is-coming/
 excerpt_separator: <!--more-->
 
