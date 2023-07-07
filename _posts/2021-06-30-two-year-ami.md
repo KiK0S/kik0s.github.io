@@ -87,7 +87,7 @@
 
 Этот раздел нужен только для того, чтобы я похвастался картиночками.
 
-![](/images/two-year-ami-6.png)!](/images/two-year-ami-7.png)
+![](/images/two-year-ami-6.png)![](/images/two-year-ami-7.png)
 
 ## Пилоты
 
