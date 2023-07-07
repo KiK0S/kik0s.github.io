@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Вне политики
-date: 2020-08-10
 permalink: /politics/dont-ignore/
+categories: [politics]
+
 ---
 
 * Разбираться в новостях сложно.

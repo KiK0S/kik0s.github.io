@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Краткое введение в демократию
-date: 2020-08-10
 permalink: /politics/democracy/
+categories: [politics]
 ---
 
 ### Определение с Википедии:
