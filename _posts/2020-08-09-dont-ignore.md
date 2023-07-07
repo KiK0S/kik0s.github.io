@@ -3,7 +3,7 @@ layout: post
 title: Вне политики
 permalink: /politics/dont-ignore/
 categories: [politics]
-
+excerpt_separator: <!--more-->
 ---
 
 * Разбираться в новостях сложно.
@@ -11,6 +11,7 @@ categories: [politics]
 * Бороться с режимом опасно.
 
 Почему тогда этим вообще занимаются?
+<!--more-->
 
 ## Вас это касается
 
