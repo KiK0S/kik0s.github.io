@@ -3,6 +3,7 @@ layout: post
 title: Ориентирование
 permalink: /orienteering/
 excerpt_separator: <!--more-->
+categories: [lifestyle]
 
 ---
 

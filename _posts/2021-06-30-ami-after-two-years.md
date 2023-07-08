@@ -3,6 +3,7 @@ layout: post
 title: "ПМИ ВШЭ: чего как? С мемами"
 permalink: /ami-after-two-years/
 excerpt_separator: <!--more-->
+categories: [hse]
 
 ---
 

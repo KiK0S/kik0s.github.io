@@ -3,6 +3,7 @@ layout: post
 title: Избавляемся от головной боли за час
 permalink: /tgbot-guide/
 excerpt_separator: <!--more-->
+categories: [programming-guide]
 
 ---
 

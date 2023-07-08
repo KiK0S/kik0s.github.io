@@ -3,6 +3,7 @@ layout: post
 permalink: /region-is-coming/
 excerpt_separator: <!--more-->
 title: Вредные советы к региону
+categories: [competitiive-programming]
 
 ---
 
