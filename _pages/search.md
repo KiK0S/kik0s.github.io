@@ -2,6 +2,8 @@
 layout: page
 title: Search
 permalink: /search/
+published: false
+
 ---
 
 <div id="search-container">
