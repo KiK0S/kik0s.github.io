@@ -88,4 +88,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - .gitignore
 
