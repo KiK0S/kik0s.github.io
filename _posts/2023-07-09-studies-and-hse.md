@@ -4,6 +4,8 @@ title:  Учеба и Вышка
 permalink: /after-classes/studies-and-hse/
 excerpt_separator: <!--more-->
 categories: [по-парам, hse]
+mathjax: true
+
 ---
 
 > Я убежден, что если студент не страдает, то он не развивается <br>
