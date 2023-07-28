@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Брейкапы и Любови
+title: Любови и Брейкапы
 permalink: /loves-and-breakups/
 excerpt_separator: <!--more-->
 categories: [по-парам, lifestyle]
