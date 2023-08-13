@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Друзья и интернет
+title:  Друзья и Интернет
 permalink: /after-studies/friends-and-internet/
 excerpt_separator: <!--more-->
 mathjax: true
