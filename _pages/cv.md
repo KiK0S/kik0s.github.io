@@ -1,20 +1,20 @@
 ---
 published: false
 ---
-<style>a {color:#1000a3}</style>
+<style>a {color:#0e0093}</style>
 <div style="margin: 40px 40px 10px 40px;">
 
 
 <div style="justify-content: space-around; display: flex;">
 
-<div style="padding-right: 20px;max-width: 60%;">
+<div style="padding-right: 20px;max-width: 65%;">
 
 # Konstantin Amelichev
 
-<p style="padding-bottom: 0; max-width: 80%;">
-I've worked on researching, building products, and developing infrastructure. I'm quick to learn and specialize in backend tech. I can handle everything from early research to making high-traffic systems run smoothly. I have solid engineering skills and learned from the best CS universities.
+<p style="padding-bottom: 0;">
+I'm a quick learner with a flexible mindset, currently specializing in backend tech. My prior experience includes researching, building products, and developing infrastructure in both big companies and startups. With robust engineering skills and a solid academic background, I'm able to contribute to every stage of the IT product life cycle — from early research to highload system with millions of users.
 
-I'm looking for opportunities in the computer vision and/or computer graphics industry.
+Actively seeking opportunities in the computer graphics and/or computer vision industry.
 </p>
 
 </div>
@@ -38,31 +38,33 @@ Languages: English (advanced), Russian (native), French (beginner)
 
 <br>
 <div style="justify-content: space-around; display: flex;">
-<div style="padding-right: 20px; max-width:60%;">
+<div style="padding-right: 20px; max-width:65%;">
 
 # Work Experience
-**Neiro.ai** (_2022 (autumn) - nowadays_) <br>
-Backend development for AI startup. Increased availability and observability of company's ML API's using cloud solutions and custom API gateway for REST and GRPC clients with support of large media files. Feature development for AI chatbot application and generative AI web studio. Initiated launch of several projects, e.g. block-style video editor for ad creation. <hr style="border-top: 1px dashed; border-bottom: 0px;">
-**High Nu** (_2022 (spring-summer)_) <br>
+**Neiro.ai**,  Backend developer, 1 year <br>
+Increased availability and observability of company's ML API's using cloud solutions and custom API gateway for REST and GRPC clients with support of large media files. Feature development for AI chatbot application and generative AI web studio. Initiated launch of several projects, e.g. block-style video editor for ad creation. <hr style="border-top: 1px dashed; border-bottom: 0px;">
+**High Nu**, Infrastructure developer, 6 months <br>
 Infrastructure development for high-frequency trading startup. I increased number of market data sources using cryptocurrency exchanges rest/websocket API's, improved overall performance through fixing bottlenecks, set up process for continuous data processing, trading, simulation, alerting and monitoring.<hr style="border-top: 1px dashed; border-bottom: 0px;">
-**Tinkoff.ru** (_2020 - 2022_) <br>
+**Tinkoff.ru**, Backend developer, 1 year 9 months <br>
 High-load services in advertising technologies (e.g. DMP, DSP in [<ins>real-time bidding model</ins>](http://rtb-media.ru/wiki/)), used for personal in-app recommendations. Improved admin console functionality through usage of macroses for custom creatives. Integrated new data providers for better geographic targeting. Created like/save mechanics for personal feed. R&D of MVP for the search of creatives based on image content.<hr style="border-top: 1px dashed; border-bottom: 0px;">
-**Teaching** (_2019 - 2023_) <br>
-Teacher in [<ins>Tinkoff Edu</ins>](https://fintech.tinkoff.ru/). Lecturer in [<ins>advanced algorithms</ins>](https://algocode.ru/ap2021/) for competitive programming (3 years, 240 students total) and [<ins>basic algorithms</ins>](https://github.com/KiK0S/tinkoff-algos-for-students) for bachelor students (1 semester, 350 students total). <br>
-[<ins>Author and/or developer</ins>](https://codeforces.com/contests/writer/KiKoS) of 10+ problems for Olympiads in programming.
+**Teaching**, part-time for 4 years <br>
+Worked in [<ins>Tinkoff Edu</ins>](https://fintech.tinkoff.ru/) as teacher of [<ins>advanced algorithms</ins>](https://algocode.ru/ap2021/) for competitive programming (3 years, 240 students total) and [<ins>basic algorithms</ins>](https://github.com/KiK0S/tinkoff-algos-for-students) for bachelor students (6 months, 350 students total). <br>
+[<ins>Author and/or developer</ins>](https://codeforces.com/contests/writer/KiKoS) of 10+ problems for Olympiads in programming. <br>
+[<ins>Teacher</ins>](https://www.hse.ru/en/edu/courses/835161561) of Distributed Systems course 23-24 in Higher School of Economics.<br>
+[<ins>Teaching assistant</ins>](https://www.hse.ru/en/edu/courses/646514056) of Distributed Systems course 22-23 in Higher School of Economics.
 
 
 # Projects
 
-[<ins>SimSearch</ins>](https://github.com/kik0s/similarity-search-coursework) (_january 2022 - august 2022_). <br>
+[<ins>SimSearch</ins>](https://github.com/kik0s/similarity-search-coursework) <br>
 Coursework paper about service developed in Tinkoff.ru. Research of ANN problem. Presenting architecture of search engine for any type of object. This approach led to a content-based image search service.<br>
-[<ins>Perlin noise heatmap</ins>](https://github.com/kik0s/perlin-noise-heatmap) (_summer 2022_). <br>
+[<ins>Perlin noise heatmap</ins>](https://github.com/kik0s/perlin-noise-heatmap) <br>
 Visualization of Perlin noise with heatmap and marching squares technique. Rust OpenGL interactive application.<br>
-[<ins>3d-renderer from scratch</ins>](https://github.com/kik0s/3d-framework) (_august 2020 - june 2021_). <br>
+[<ins>3d-renderer from scratch</ins>](https://github.com/kik0s/3d-framework) <br>
 Library for processing 3d scenes and rendering them in real-time. Uses only "set pixel" graphic primitive from SFML library, rasterization is self-written as well as scene manager.<br>
-[<ins>Digitalization of orienteering maps</ins>](https://github.com/KiK0S/maps-analyzer) (_summer 2020 - WIP_). <br>
+[<ins>Digitalization of orienteering maps</ins>](https://github.com/KiK0S/maps-analyzer) <br>
 Labeled image dataset, setup augmentation pipeline for semantic segmentation problem. Tested different approaches, currently the best is one using U-Net. <br>
-[<ins>OpenCV mini-projects in Rust</ins>](https://github.com/KiK0S/cv_projects) (_summer 2021_). <br>
+[<ins>OpenCV mini-projects in Rust</ins>](https://github.com/KiK0S/cv_projects)<br>
 Rust bindings for OpenCV used for sketch filter, shape detection, template search.<br>
 
 
@@ -77,24 +79,26 @@ Rust bindings for OpenCV used for sketch filter, shape detection, template searc
 
 
 
-<div style="float:right;width:45%;">
+<div style="float:right;width:35%;">
 
 
 # Education
 
-**Institute Polytechnique de Paris**, MScT. (Paris, _2023 - 2025_)<br>
-"AI & advanced Visual Computing" program, with focus on solving visual tasks, such as:
+**Institute Polytechnique de Paris**, MScT.<br>
+_Paris, 2023 - 2025_<br>
+«AI & advanced Visual Computing» program, with focus on solving visual tasks, such as:
 Shape representation, Computer vision, Image synthesis, Computer animation.
 
-**Higher School of Economics**, BSc. (Moscow, _2019 - 2023_)<br>
-"Applied math and informatics" program with specialization is distributed systems. [<ins>Thesis</ins>](https://github.com/KiK0S/model-checking-dslab-thesis) on model checking for formal verification of distributed system.
+**Higher School of Economics**, BSc.<br>
+_Moscow, 2019 - 2023_<br>
+«Applied math and informatics» program with specialization is distributed systems. [<ins>Thesis</ins>](https://github.com/KiK0S/model-checking-dslab-thesis) on model checking for formal verification of distributed system.
 
 **Relevant courses**<br>
 3d Computer vision<br>
 Machine learning<br>
 Algorithms and data structures<br>
-Harvard's CS50 "Introduction to Game development"<br>
-Udemy "Deep Learning and Computer vision"
+Harvard's CS50 «Introduction to Game development»<br>
+Udemy «Deep Learning and Computer vision»
 
 <p style="background-color:#eaeaea;margin:0;"> <img src="https://icon-library.com/images/important-icon-png/important-icon-png-21.jpg" width=20px></img> You can find more certificates on my <a href="https://www.linkedin.com/in/konstantin-amelichev-66a546219/details/certifications/"> <ins> my linkedin</ins></a> page! </p><br>
 
