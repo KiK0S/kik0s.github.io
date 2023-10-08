@@ -84,13 +84,13 @@ Rust bindings for OpenCV used for sketch filter, shape detection, template searc
 
 # Education
 
-**Institute Polytechnique de Paris**, MScT.<br>
-_Paris, 2023 - 2025_<br>
+**École Polytechnique**, MScT.<br>
+_Paris, 09/23 - 08/25_<br>
 «AI & advanced Visual Computing» program, with focus on solving visual tasks, such as:
 Shape representation, Computer vision, Image synthesis, Computer animation.
 
 **Higher School of Economics**, BSc.<br>
-_Moscow, 2019 - 2023_<br>
+_Moscow, 09/19 - 07/23_<br>
 «Applied math and informatics» program with specialization is distributed systems. [<ins>Thesis</ins>](https://github.com/KiK0S/model-checking-dslab-thesis) on model checking for formal verification of distributed system.
 
 **Relevant courses**<br>
