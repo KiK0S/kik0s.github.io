@@ -29,7 +29,7 @@ Actively seeking opportunities in the computer graphics and/or computer vision i
 [<ins>github: kik0s</ins>](https://github.com/kik0s) <br>
 [<ins>linkedin: konstantin-amelichev-66a546219</ins>](https://www.linkedin.com/in/konstantin-amelichev-66a546219/) <br>
 [<ins>teleram: kik0s</ins>](https://t.me/kik0s) <br>
-Phone number: <ins>+995 595-33-53-27</ins>.<br>
+Phone number: <ins>+33 7 83 64 20 81</ins>.<br>
 Languages: English (advanced), Russian (native), French (beginner)
 </p>
 </div>
