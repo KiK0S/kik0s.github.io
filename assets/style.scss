@@ -1146,3 +1146,62 @@ Modules - reusable parts of our design
 //@import "highlights";
 @import "darcula";
 @import "svg-icons";
+
+
+.content-en, .content-ru {
+  display: none;
+}
+
+.content-en.active, .content-ru.active {
+  display: block;
+}
+
+
+.switch {
+  display: flex;
+  width: 74px;
+  height: 34px;
+  position: relative;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #ccc;
+  transition: background-color 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.switch .thumb {
+  position: absolute;
+  top: 3px;
+  left: 0px;
+  width: 30px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: white;
+  transition: transform 0.3s;
+}
+.switch .flag {
+  width: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+#language-switch.active {
+  background-color: #66bb6a; 
+}
+
+#language-switch.active .thumb {
+  transform: translateX(40px); /* position thumb to the right for active state */
+}
+
+#language-switch.inactive {
+  background-color: #ef5350;
+}
+
+#language-switch.inactive .thumb {
+  transform: translateX(4px); /* position thumb to the left for inactive state */
+}

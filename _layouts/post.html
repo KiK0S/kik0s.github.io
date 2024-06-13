@@ -23,6 +23,17 @@ layout: default
     </div>
   </div>
     
+
+  {% if page.multilanguage %}
+  <center>
+    <div id="language-switch" class="switch active">
+      <div class="thumb"></div>
+      <span class="flag">🇷🇺</span>
+      <span class="flag">🇺🇸</span>
+    </div>
+  </center>
+  {% endif %}
+
   <div class="entry">
     {{ content }}
   </div>
