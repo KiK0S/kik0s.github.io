@@ -5,16 +5,19 @@ permalink: /after-classes/
 excerpt_separator: <!--more-->
 categories: [по-парам]
 mathjax: true
-multilanguage: true
 ---
 
-{% capture content-ru %}{% include_relative _contents/2023-09-14-after-classes.ru.md %}{% endcapture %}
-<div class="content-ru active">
-{{ content-ru | markdownify }}
-</div>
+По парам -- серия лонгридов о всяком разном, что происходило со мной во время моего бакалаврского студенчества в московской Высшей Школе Экономики с 2019 по 2023 год. А произошло много всего -- я завел блог, стал политактивистом, начал работать, женился, эмигрировал, и все это время не переставал учиться.
 
-{% capture content-en %}{% include_relative _contents/2023-09-14-after-classes.en.md %}{% endcapture %}
-<div class="content-en">
-{{ content-en | markdownify }}
-</div>
+<!--more-->
+---
 
+**Оглавление:**
+
+* [Учеба и Вышка](/after-classes/studies-and-hse/). Как устроена Вышка, учебный процесс, и как я помирал, совмещая учебу и работу.
+* [Друзья и Интернет](/after-studies/friends-and-internet/). Как с друзьями стало гораздо сложнее, вопреки всем ожиданиям. И мой выход в открытый интернет.
+* [Любови и Брейкапы](/loves-and-breakups/). Все мои романтические похождения, скандалы и интриги!!!
+* [Работа и Преподавание](/after-classes/teaching-and-working/). Чем заниматься, помимо универа, и выгорание от работы к 21 году.
+* [Протесты и Эмиграция](/after-classes/protests-and-emigration/). Мои проблемы с Россией, и проблемы России со мной.
+
+![](../../images/after-classes.jpg)
