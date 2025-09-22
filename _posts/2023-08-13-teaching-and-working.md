@@ -7,7 +7,6 @@ categories: [по-парам, lifestyle]
 published: true
 ---
 
-
 > Недопитый чай с лимоном
 > 
 > Украшает грязный стол
