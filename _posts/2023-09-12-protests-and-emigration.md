@@ -8,6 +8,7 @@ published: true
 multilanguage: true
 ---
 
+
 {% capture content-ru %}{% include_relative _contents/2023-09-12-protests-and-emigration.ru.md %}{% endcapture %}
 <div class="content-ru active">
 {{ content-ru | markdownify }}
