@@ -77,7 +77,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
 
-include: ['_pages']
+include: ['_pages', 'dsa-notes']
 
 paginate: 6
 paginate_path: /posts/page:num/
