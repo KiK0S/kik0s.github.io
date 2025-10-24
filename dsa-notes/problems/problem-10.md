@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача J. Цикл в графе"
+title: "10. Цикл в графе"
 permalink: /dsa-notes/problems/problem-10/
 lang: ru
 contest: bp2025-dfs1
-problem_id: J
+problem_code: J
+problem_id: 10
 ---
 
 ## Задача
@@ -53,8 +54,10 @@ problem_id: J
 Если конфликтов нет, граф двудольный и ответ «NO». Ограничения позволяют хранить списки смежности и выполнять один DFS за $O(n + m)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — J: 10. Цикл в графе
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — J: 10. Цикл в графе
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

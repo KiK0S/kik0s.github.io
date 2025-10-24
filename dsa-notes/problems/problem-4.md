@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача D. Отбой"
+title: "4. Отбой"
 permalink: /dsa-notes/problems/problem-4/
 lang: ru
 contest: bp2025-dfs1
-problem_id: D
+problem_code: D
+problem_id: 4
 ---
 
 ## Задача
@@ -47,8 +48,10 @@ problem_id: D
 Предобработка выполняется за $O(n + m)$. Ответы на запросы — по $O(1)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — D: 4. Отбой
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — D: 4. Отбой
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача I. Проверка топологической сортировки"
+title: "9. Проверка топологической сортировки"
 permalink: /dsa-notes/problems/problem-9/
 lang: ru
 contest: bp2025-dfs1
-problem_id: I
+problem_code: I
+problem_id: 9
 ---
 
 ## Задача
@@ -49,8 +50,10 @@ problem_id: I
 Если ни одного нарушения нет, ответ «YES». Сложность $O(n + m)$: формирование `pos` и единственный проход по рёбрам.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — I: 9. Проверка топологической сортировки
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — I: 9. Проверка топологической сортировки
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

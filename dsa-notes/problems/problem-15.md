@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача O. Красно-синий граф"
+title: "15. Красно-синий граф"
 permalink: /dsa-notes/problems/problem-15/
 lang: ru
 contest: bp2025-dfs1
-problem_id: O
+problem_code: O
+problem_id: 15
 ---
 
 ## Задача
@@ -47,8 +48,10 @@ R
 После заполнения достаточно пройти по всем $i < j$ и проверить, есть ли `red[i][j] && blue[i][j]`. При $n = 5000$ битсеты длины $n$ умещаются в ~80 64-битных слов, что даёт сложность порядка $O(n^2 / 64)$ — приемлемо. Если условие выполняется хотя бы для одной пары, отвечаем «YES», иначе «NO».
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — O: 15. Красно-синий граф
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — O: 15. Красно-синий граф
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача F. Обход графа"
+title: "6. Обход графа"
 permalink: /dsa-notes/problems/problem-6/
 lang: ru
 contest: bp2025-dfs1
-problem_id: F
+problem_code: F
+problem_id: 6
 ---
 
 ## Задача
@@ -56,8 +57,10 @@ int ans = accumulate(used.begin(), used.end(), 0);
 Матрица $100 \times 100$ легко помещается в память. Сложность $O(N^2)$ за счёт перебора всех строк.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — F: 6. Обход графа
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — F: 6. Обход графа
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

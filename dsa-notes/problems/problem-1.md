@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача A. От списка ребер к матрице смежности"
+title: "1. От списка ребер к матрице смежности"
 permalink: /dsa-notes/problems/problem-1/
 lang: ru
 contest: bp2025-dfs1
-problem_id: A
+problem_code: A
+problem_id: 1
 ---
 
 ## Задача
@@ -63,8 +64,10 @@ for (int i = 0; i < n; ++i) {
 Временная и по памяти сложность — $O(n^2)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — A: 1. От списка ребер к матрице смежности
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — A: 1. От списка ребер к матрице смежности
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

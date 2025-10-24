@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача K. Свинки-копилки"
+title: "11. Свинки-копилки"
 permalink: /dsa-notes/problems/problem-11/
 lang: ru
 contest: bp2025-dfs1
-problem_id: K
+problem_code: K
+problem_id: 11
 ---
 
 ## Задача
@@ -45,8 +46,10 @@ problem_id: K
 Чтобы посчитать их, отмечаем посещённые вершины и запоминаем состояние (`0` — не посещена, `1` — в стеке, `2` — обработана). При попадании в вершину со статусом `1` обнаруживаем новый цикл и увеличиваем ответ. Сложность $O(n)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — K: 11. Свинки-копилки
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — K: 11. Свинки-копилки
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

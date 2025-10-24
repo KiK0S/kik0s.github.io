@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача C. Долой списывание!"
+title: "3. Долой списывание!"
 permalink: /dsa-notes/problems/problem-3/
 lang: ru
 contest: bp2025-dfs1
-problem_id: C
+problem_code: C
+problem_id: 3
 ---
 
 ## Задача
@@ -41,8 +42,10 @@ problem_id: C
 Если обход завершился без конфликтов (в том числе когда рёбер нет), граф двудольный — значит, можно разделить лкшат на две группы, и ответ «YES». Временная сложность $O(N + M)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — C: 3. Долой списывание!
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — C: 3. Долой списывание!
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

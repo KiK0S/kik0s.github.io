@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача N. Доим коров"
+title: "14. Доим коров"
 permalink: /dsa-notes/problems/problem-14/
 lang: ru
 contest: bp2025-dfs1
-problem_id: N
+problem_code: N
+problem_id: 14
 ---
 
 ## Задача
@@ -45,8 +46,10 @@ problem_id: N
 Работаем за $O(n + m)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — N: 14. Доим коров
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — N: 14. Доим коров
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

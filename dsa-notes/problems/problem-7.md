@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача G. Есть ли цикл?"
+title: "7. Есть ли цикл?"
 permalink: /dsa-notes/problems/problem-7/
 lang: ru
 contest: bp2025-dfs1
-problem_id: G
+problem_code: G
+problem_id: 7
 ---
 
 ## Задача
@@ -47,8 +48,10 @@ problem_id: G
 Альтернативно можно выполнить топологическую сортировку алгоритмом Кана: если удаётся вынести все вершины, цикла нет, иначе — есть. Обе реализации работают за $O(n + m)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — G: 7. Есть ли цикл?
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — G: 7. Есть ли цикл?
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

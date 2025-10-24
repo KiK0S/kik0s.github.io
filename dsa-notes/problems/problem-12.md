@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача L. Бусинки"
+title: "12. Бусинки"
 permalink: /dsa-notes/problems/problem-12/
 lang: ru
 contest: bp2025-dfs1
-problem_id: L
+problem_code: L
+problem_id: 12
 ---
 
 ## Задача
@@ -48,8 +49,10 @@ problem_id: L
 Оба обхода работают за $O(N)$ и укладываются по памяти.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — L: 12. Бусинки
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — L: 12. Бусинки
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }

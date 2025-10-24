@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача M. Авиаперелёты"
+title: "13. Авиаперелёты"
 permalink: /dsa-notes/problems/problem-13/
 lang: ru
 contest: bp2025-dfs1
-problem_id: M
+problem_code: M
+problem_id: 13
 ---
 
 ## Задача
@@ -45,8 +46,10 @@ avia.in                avia.out
 Так как $n \le 1000$, одна проверка стоит $O(n^2)$ (проходим по строкам матрицы), бинарный поиск даёт дополнительный множитель $\log W$ ($W$ — максимальный вес, до $10^9$). Итоговая сложность $O(n^2 \log W)$.
 
 </details>
+### Mentioned by
 
-### Навигация
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — M: 13. Авиаперелёты
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — M: 13. Авиаперелёты
+<!-- dsa-mentioned-by:end -->
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
