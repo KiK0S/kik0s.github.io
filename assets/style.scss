@@ -1205,3 +1205,74 @@ Modules - reusable parts of our design
 #language-switch.inactive .thumb {
   transform: translateX(4px); /* position thumb to the left for inactive state */
 }
+
+/* DSA Notes helpers */
+a.dsa-mention {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.15rem 0.6rem;
+  border-radius: 0.75rem;
+  background: rgba(114, 137, 218, 0.12);
+  border: 1px solid rgba(114, 137, 218, 0.25);
+  font-weight: 500;
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+a.dsa-mention::before {
+  content: "◎";
+  font-size: 0.75em;
+  color: rgba(114, 137, 218, 0.9);
+}
+
+a.dsa-mention:hover,
+a.dsa-mention:focus {
+  background: rgba(114, 137, 218, 0.2);
+  border-color: rgba(114, 137, 218, 0.5);
+  transform: translateY(-1px);
+}
+
+details.dsa-toggle {
+  border: 1px solid rgba(114, 137, 218, 0.25);
+  border-radius: 0.8rem;
+  padding: 0.75rem 1rem;
+  background: rgba(114, 137, 218, 0.08);
+  margin: 1.5rem 0;
+}
+
+details.dsa-toggle[open] {
+  background: rgba(114, 137, 218, 0.12);
+}
+
+details.dsa-toggle > summary {
+  cursor: pointer;
+  list-style: none;
+  font-weight: 600;
+  position: relative;
+}
+
+details.dsa-toggle > summary::marker {
+  display: none;
+}
+
+details.dsa-toggle > summary::after {
+  content: "▸";
+  position: absolute;
+  right: 0;
+  transform: rotate(0deg);
+  transition: transform 0.2s ease;
+}
+
+details.dsa-toggle[open] > summary::after {
+  transform: rotate(90deg);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  a.dsa-mention,
+  details.dsa-toggle,
+  details.dsa-toggle > summary::after {
+    transition: none;
+  }
+}
