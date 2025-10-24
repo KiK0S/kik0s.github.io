@@ -48,14 +48,6 @@ problem_id: 8
 Альтернативный способ — запуск DFS и добавление вершины в ответ при выходе из рекурсии; необходимо следить за посещёнными и вершинами в стеке, чтобы вовремя обнаружить цикл.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

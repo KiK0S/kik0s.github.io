@@ -54,14 +54,6 @@ problem_id: 10
 Если конфликтов нет, граф двудольный и ответ «NO». Ограничения позволяют хранить списки смежности и выполнять один DFS за $O(n + m)$.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

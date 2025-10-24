@@ -46,14 +46,6 @@ problem_id: 11
 Чтобы посчитать их, отмечаем посещённые вершины и запоминаем состояние (`0` — не посещена, `1` — в стеке, `2` — обработана). При попадании в вершину со статусом `1` обнаруживаем новый цикл и увеличиваем ответ. Сложность $O(n)$.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

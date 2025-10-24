@@ -57,14 +57,6 @@ int ans = accumulate(used.begin(), used.end(), 0);
 Матрица $100 \times 100$ легко помещается в память. Сложность $O(N^2)$ за счёт перебора всех строк.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

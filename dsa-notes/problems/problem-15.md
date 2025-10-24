@@ -48,14 +48,6 @@ R
 После заполнения достаточно пройти по всем $i < j$ и проверить, есть ли `red[i][j] && blue[i][j]`. При $n = 5000$ битсеты длины $n$ умещаются в ~80 64-битных слов, что даёт сложность порядка $O(n^2 / 64)$ — приемлемо. Если условие выполняется хотя бы для одной пары, отвечаем «YES», иначе «NO».
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

@@ -43,14 +43,6 @@ problem_id: 5
 Дальше выводим массив `deg` целиком в одной строке. Ограничения малы, поэтому достаточно $O(n + m)$ времени и $O(n)$ памяти. Никаких подводных камней, кроме аккуратной работы с нумерацией, нет.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Populate navigation and "Mentioned by" sections for DSA notes pages."""
+"""Populate "Mentioned by" sections for DSA notes pages."""
 from __future__ import annotations
 
 import re
@@ -12,8 +12,6 @@ from urllib.parse import urljoin
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DSA_ROOT = REPO_ROOT / "dsa-notes"
 
-NAV_START = "<!-- dsa-navigation:start -->"
-NAV_END = "<!-- dsa-navigation:end -->"
 MENTION_START = "<!-- dsa-mentioned-by:start -->"
 MENTION_END = "<!-- dsa-mentioned-by:end -->"
 LINK_PATTERN = re.compile(r"\[([^\]]+)\]\(([^)]+)\)\{\:\s*\.dsa-mention[^}]*\}")
@@ -73,19 +71,11 @@ def parse_front_matter(text: str) -> Tuple[FrontMatter, str]:
     return FrontMatter(permalink, title), text
 
 
-def strip_block(text: str, start_marker: str, end_marker: str) -> str:
-    start = text.find(start_marker)
-    end = text.find(end_marker)
-    if start == -1 or end == -1 or end < start:
-        return text
-    end += len(end_marker)
-    return text[:start] + text[end:]
-
-
 def extract_mentions(text: str, base_permalink: str) -> List[Tuple[str, str]]:
-    search_text = strip_block(text, NAV_START, NAV_END)
-    if "### Mentioned by" in search_text:
-        search_text = search_text.split("### Mentioned by", 1)[0]
+    if MENTION_START in text:
+        search_text = text.split(MENTION_START, 1)[0]
+    else:
+        search_text = text
     mentions: List[Tuple[str, str]] = []
     for match in LINK_PATTERN.finditer(search_text):
         label, href = match.groups()
@@ -156,26 +146,23 @@ def main() -> int:
 
     for path, text in file_text.items():
         fm = front_matters[path]
-        if not (NAV_START in text and NAV_END in text and MENTION_START in text and MENTION_END in text):
+        if not (MENTION_START in text and MENTION_END in text):
             continue
         sources = incoming.get(path, {})
-        nav_lines: List[str] = []
         mention_lines: List[str] = []
         if sources:
             sorted_sources = sorted(sources.items(), key=lambda item: (item[1]["title"] or "", item[0]))
             for permalink, data in sorted_sources:
                 title = data["title"] or permalink
                 link = f'[{title}]({permalink}){{: .dsa-mention }}'
-                nav_lines.append(f"- {link}")
                 labels = sorted(data["labels"])
                 if labels:
                     label_text = ", ".join(labels)
                     mention_lines.append(f"- {link} — {label_text}")
                 else:
                     mention_lines.append(f"- {link}")
-        new_text, nav_changed = replace_between_markers(text, NAV_START, NAV_END, nav_lines)
-        new_text, mention_changed = replace_between_markers(new_text, MENTION_START, MENTION_END, mention_lines)
-        if nav_changed or mention_changed:
+        new_text, mention_changed = replace_between_markers(text, MENTION_START, MENTION_END, mention_lines)
+        if mention_changed:
             path.write_text(new_text, encoding="utf-8")
             changed_any = True
 

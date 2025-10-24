@@ -42,14 +42,6 @@ problem_id: 3
 Если обход завершился без конфликтов (в том числе когда рёбер нет), граф двудольный — значит, можно разделить лкшат на две группы, и ответ «YES». Временная сложность $O(N + M)$.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

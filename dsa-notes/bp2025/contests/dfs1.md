@@ -24,13 +24,6 @@ lang: ru
 - [M: 13. Авиаперелёты](../../../problems/problem-13/){: .dsa-mention }
 - [N: 14. Доим коров](../../../problems/problem-14/){: .dsa-mention }
 - [O: 15. Красно-синий граф](../../../problems/problem-15/){: .dsa-mention }
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [Параллель B' — разборы контестов](/dsa-notes/bp2025/contests/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

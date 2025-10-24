@@ -48,14 +48,6 @@ problem_id: 7
 Альтернативно можно выполнить топологическую сортировку алгоритмом Кана: если удаётся вынести все вершины, цикла нет, иначе — есть. Обе реализации работают за $O(n + m)$.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

@@ -46,14 +46,6 @@ avia.in                avia.out
 Так как $n \le 1000$, одна проверка стоит $O(n^2)$ (проходим по строкам матрицы), бинарный поиск даёт дополнительный множитель $\log W$ ($W$ — максимальный вес, до $10^9$). Итоговая сложность $O(n^2 \log W)$.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->

@@ -50,14 +50,6 @@ problem_id: 9
 Если ни одного нарушения нет, ответ «YES». Сложность $O(n + m)$: формирование `pos` и единственный проход по рёбрам.
 
 </details>
-
-### Навигация
-
-<!-- dsa-navigation:start -->
-- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
-<!-- dsa-navigation:end -->
-
 ### Mentioned by
 
 <!-- dsa-mentioned-by:start -->
