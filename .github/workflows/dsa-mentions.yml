@@ -1,0 +1,19 @@
+name: DSA mentions sync
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+
+jobs:
+  update-mentions:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+      - name: Update DSA mentions
+        run: scripts/update_dsa_mentions.py
+      - name: Ensure no diff
+        run: git diff --stat --exit-code

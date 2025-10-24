@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача M. Авиаперелёты"
+title: "13. Авиаперелёты"
 permalink: /dsa-notes/problems/problem-13/
 lang: ru
 contest: bp2025-dfs1
-problem_id: M
+problem_code: M
+problem_id: 13
 ---
 
 ## Задача
@@ -48,5 +49,15 @@ avia.in                avia.out
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — M: 13. Авиаперелёты
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — M: 13. Авиаперелёты
+<!-- dsa-mentioned-by:end -->
+

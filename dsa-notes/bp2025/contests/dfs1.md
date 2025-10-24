@@ -9,23 +9,31 @@ lang: ru
 
 ## Задачи контеста
 
-- [Задача A. От списка ребер к матрице смежности](../../problems/problem-1/){: .dsa-mention }
-- [Задача B. Компоненты связности](../../problems/problem-2/){: .dsa-mention }
-- [Задача C. Долой списывание!](../../problems/problem-3/){: .dsa-mention }
-- [Задача D. Отбой](../../problems/problem-4/){: .dsa-mention }
-- [Задача E. Степени вершин по списку ребер](../../problems/problem-5/){: .dsa-mention }
-- [Задача F. Обход графа](../../problems/problem-6/){: .dsa-mention }
-- [Задача G. Есть ли цикл?](../../problems/problem-7/){: .dsa-mention }
-- [Задача H. Топологическая сортировка](../../problems/problem-8/){: .dsa-mention }
-- [Задача I. Проверка топологической сортировки](../../problems/problem-9/){: .dsa-mention }
-- [Задача J. Цикл в графе](../../problems/problem-10/){: .dsa-mention }
-- [Задача K. Свинки-копилки](../../problems/problem-11/){: .dsa-mention }
-- [Задача L. Бусинки](../../problems/problem-12/){: .dsa-mention }
-- [Задача M. Авиаперелёты](../../problems/problem-13/){: .dsa-mention }
-- [Задача N. Доим коров](../../problems/problem-14/){: .dsa-mention }
-- [Задача O. Красно-синий граф](../../problems/problem-15/){: .dsa-mention }
+- [A: 1. От списка ребер к матрице смежности](../../../problems/problem-1/){: .dsa-mention }
+- [B: 2. Компоненты связности](../../../problems/problem-2/){: .dsa-mention }
+- [C: 3. Долой списывание!](../../../problems/problem-3/){: .dsa-mention }
+- [D: 4. Отбой](../../../problems/problem-4/){: .dsa-mention }
+- [E: 5. Степени вершин по списку ребер](../../../problems/problem-5/){: .dsa-mention }
+- [F: 6. Обход графа](../../../problems/problem-6/){: .dsa-mention }
+- [G: 7. Есть ли цикл?](../../../problems/problem-7/){: .dsa-mention }
+- [H: 8. Топологическая сортировка](../../../problems/problem-8/){: .dsa-mention }
+- [I: 9. Проверка топологической сортировки](../../../problems/problem-9/){: .dsa-mention }
+- [J: 10. Цикл в графе](../../../problems/problem-10/){: .dsa-mention }
+- [K: 11. Свинки-копилки](../../../problems/problem-11/){: .dsa-mention }
+- [L: 12. Бусинки](../../../problems/problem-12/){: .dsa-mention }
+- [M: 13. Авиаперелёты](../../../problems/problem-13/){: .dsa-mention }
+- [N: 14. Доим коров](../../../problems/problem-14/){: .dsa-mention }
+- [O: 15. Красно-синий граф](../../../problems/problem-15/){: .dsa-mention }
 
 ### Навигация
 
-- [Каталог контестов параллели B'](./){: .dsa-mention }
-- [Каталог задач](../../problems/){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [Параллель B' — разборы контестов](/dsa-notes/bp2025/contests/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [Параллель B' — разборы контестов](/dsa-notes/bp2025/contests/){: .dsa-mention } — DFS: введение
+<!-- dsa-mentioned-by:end -->
+

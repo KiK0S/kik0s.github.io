@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача E. Степени вершин по списку ребер"
+title: "5. Степени вершин по списку ребер"
 permalink: /dsa-notes/problems/problem-5/
 lang: ru
 contest: bp2025-dfs1
-problem_id: E
+problem_code: E
+problem_id: 5
 ---
 
 ## Задача
@@ -45,5 +46,15 @@ problem_id: E
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — E: 5. Степени вершин по списку ребер
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — E: 5. Степени вершин по списку ребер
+<!-- dsa-mentioned-by:end -->
+

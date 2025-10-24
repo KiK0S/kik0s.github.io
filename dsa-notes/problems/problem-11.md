@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача K. Свинки-копилки"
+title: "11. Свинки-копилки"
 permalink: /dsa-notes/problems/problem-11/
 lang: ru
 contest: bp2025-dfs1
-problem_id: K
+problem_code: K
+problem_id: 11
 ---
 
 ## Задача
@@ -48,5 +49,15 @@ problem_id: K
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — K: 11. Свинки-копилки
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — K: 11. Свинки-копилки
+<!-- dsa-mentioned-by:end -->
+

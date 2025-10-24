@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача D. Отбой"
+title: "4. Отбой"
 permalink: /dsa-notes/problems/problem-4/
 lang: ru
 contest: bp2025-dfs1
-problem_id: D
+problem_code: D
+problem_id: 4
 ---
 
 ## Задача
@@ -50,5 +51,15 @@ problem_id: D
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — D: 4. Отбой
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — D: 4. Отбой
+<!-- dsa-mentioned-by:end -->
+

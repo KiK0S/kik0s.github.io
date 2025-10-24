@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача J. Цикл в графе"
+title: "10. Цикл в графе"
 permalink: /dsa-notes/problems/problem-10/
 lang: ru
 contest: bp2025-dfs1
-problem_id: J
+problem_code: J
+problem_id: 10
 ---
 
 ## Задача
@@ -56,5 +57,15 @@ problem_id: J
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — J: 10. Цикл в графе
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — J: 10. Цикл в графе
+<!-- dsa-mentioned-by:end -->
+

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача H. Топологическая сортировка"
+title: "8. Топологическая сортировка"
 permalink: /dsa-notes/problems/problem-8/
 lang: ru
 contest: bp2025-dfs1
-problem_id: H
+problem_code: H
+problem_id: 8
 ---
 
 ## Задача
@@ -50,5 +51,15 @@ problem_id: H
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — H: 8. Топологическая сортировка
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — H: 8. Топологическая сортировка
+<!-- dsa-mentioned-by:end -->
+

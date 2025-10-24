@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача O. Красно-синий граф"
+title: "15. Красно-синий граф"
 permalink: /dsa-notes/problems/problem-15/
 lang: ru
 contest: bp2025-dfs1
-problem_id: O
+problem_code: O
+problem_id: 15
 ---
 
 ## Задача
@@ -50,5 +51,15 @@ R
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — O: 15. Красно-синий граф
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — O: 15. Красно-синий граф
+<!-- dsa-mentioned-by:end -->
+

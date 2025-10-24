@@ -1,10 +1,11 @@
 ---
 layout: page
-title: "Задача G. Есть ли цикл?"
+title: "7. Есть ли цикл?"
 permalink: /dsa-notes/problems/problem-7/
 lang: ru
 contest: bp2025-dfs1
-problem_id: G
+problem_code: G
+problem_id: 7
 ---
 
 ## Задача
@@ -50,5 +51,15 @@ problem_id: G
 
 ### Навигация
 
-- [К странице контеста DFS1](../bp2025/contests/dfs1/){: .dsa-mention }
-- [Каталог задач](./){: .dsa-mention }
+<!-- dsa-navigation:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention }
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention }
+<!-- dsa-navigation:end -->
+
+### Mentioned by
+
+<!-- dsa-mentioned-by:start -->
+- [DFS1 — параллель B'](/dsa-notes/bp2025/contests/dfs1/){: .dsa-mention } — G: 7. Есть ли цикл?
+- [Каталог задач](/dsa-notes/problems/){: .dsa-mention } — G: 7. Есть ли цикл?
+<!-- dsa-mentioned-by:end -->
+
