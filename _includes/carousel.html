@@ -1,0 +1,36 @@
+{% assign images = include.images | default: "" | split: "," %}
+{% assign alts = include.alts | default: "" | split: "," %}
+{% assign carousel_id = include.id | default: include.images | slugify %}
+
+<div class="carousel" data-carousel id="{{ carousel_id }}">
+  <button class="carousel-control prev" type="button" data-carousel-prev aria-label="Предыдущий слайд">‹</button>
+
+  <div class="carousel-track" data-carousel-track>
+    {% for image in images %}
+      {% assign raw_path = image | strip %}
+      {% if raw_path contains '://' %}
+        {% assign img_src = raw_path %}
+      {% elsif raw_path | slice: 0, 1 == '/' %}
+        {% assign img_src = raw_path %}
+      {% elsif raw_path | slice: 0, 7 == 'images/' %}
+        {% assign img_src = '/' | append: raw_path %}
+      {% else %}
+        {% assign img_src = '/images/' | append: raw_path %}
+      {% endif %}
+
+      {% assign alt_override = alts[forloop.index0] | default: include.alt | default: page.title %}
+
+      <div class="carousel-slide{% if forloop.first %} is-active{% endif %}" data-carousel-slide>
+        <img src="{{ img_src }}" alt="{{ alt_override | escape }}" loading="lazy">
+      </div>
+    {% endfor %}
+  </div>
+
+  <button class="carousel-control next" type="button" data-carousel-next aria-label="Следующий слайд">›</button>
+
+  <div class="carousel-dots" data-carousel-dots>
+    {% for image in images %}
+      <button type="button" data-index="{{ forloop.index0 }}" class="{% if forloop.first %}is-active{% endif %}" aria-label="Перейти к слайду {{ forloop.index }}"></button>
+    {% endfor %}
+  </div>
+</div>
