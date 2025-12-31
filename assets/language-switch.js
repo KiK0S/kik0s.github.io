@@ -1,8 +1,13 @@
 document.addEventListener("DOMContentLoaded", function() {
   // Get the switch element
   const switchElement = document.getElementById('language-switch');
-  var contentEn = document.querySelector('.content-en');
-  var contentRu = document.querySelector('.content-ru');
+  const contentEn = document.querySelector('.content-en');
+  const contentRu = document.querySelector('.content-ru');
+
+  // If the page has no language switch (most pages), bail early so other scripts keep working
+  if (!switchElement || !contentEn || !contentRu) {
+    return;
+  }
 
   // Add click event listener to the switch
   switchElement.addEventListener('click', function() {
