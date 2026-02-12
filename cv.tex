@@ -1,0 +1,250 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Curriculum Vitae
+%
+% Source: http://www.howtotex.com/
+% Feel free to distribute this template, but please keep the
+% referal to HowToTeX.com.
+% Date: July 2011
+% 
+% Author of Anti-CV: Stephen Fay
+% Fork on github https://github.com/dcxSt/anti-cv
+% 
+
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+							
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage[margin=0.5in]{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+
+\usepackage{tikz}
+% \usepackage{kpfonts} % for \varheartsuit , also changes font
+\usepackage{color}
+\newcommand*\Hs{\ensuremath{\color{red}\varheartsuit}}
+
+%%% Heart-stab command
+\newcommand{\heartstab}{%
+% \begin{tikzpicture}%
+% \draw [line width=0.0mm, white] (3.5ex,0.4ex) -- (3.5ex,0.4ex);
+% \Large{$\Hs$};
+% \draw [line width=0.30mm, black] (-0.7ex,0.7ex) -- (1.2ex,1.2ex);%
+% \draw [line width=0.50mm, black] (0.8ex,0.65ex) -- (0.55ex,1.45ex);%
+% \end{tikzpicture}%
+}
+
+%%% Squiggly arrow
+% \newcommand{\squigarr}{
+% {\Large \color{blue}$\rightsquigarrow$}
+% }
+
+\usepackage[colorlinks=true,urlcolor=purple]{hyperref}
+
+% \frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+\raggedbottom
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{3pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{0em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+		
+        
+\newcommand{\NameEmailPhoneSiteGithub}[3]{
+        \Huge \usefont{OT1}{phv}{m}{n} \textbf{#1} 
+        \large \usefont{OT1}{phv}{m}{n} \hfill #2
+        
+        \hfill #3
+        \par \normalsize \normalfont
+}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value	
+		
+
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+
+\NameEmailPhoneSiteGithub{Konstantin Amelichev}{kostya.amelichev@gmail.com}{\href{https://github.com/kik0s}{github.com/kik0s}}
+
+\sepspace
+
+%%% Education
+%%% ------------------------------------------------------------
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Experience}{}
+
+ \textbf{Stockly:} \textit{Stockly: Software Engineer}, (2025-now). E-commerce startup
+    \begin{itemize}
+      \itemsep 0em 
+       \item Automation of common customer support processes: returns, complaints and incoming messages processing.
+       \item Achieved 20\% cost reduction for return parcels by flexible choice of carriers
+       \item Automated manual process for reverting manual mistakes on cancellation decisions, eliminating 20\% of incoming tickets for tech support team.
+       \item \textbf{Technologies:} Rust, Diesel, PostgreSQL
+    \end{itemize}
+\\
+\textbf{Huawei:} \textit{ML Research intern}, (2025). Autonomous driving simulation
+    \begin{itemize}
+      \itemsep 0em 
+      \item Research of Large World Models for controllable video generation
+      \item \textbf{Technologies:} Python, Pytorch, Diffusion Transformers
+    \end{itemize}
+\\
+ \textbf{Datagrok.ai:} \textit{Software Engineer}, (2023-2025). Data Analysis Platform for Bio- and Chem-Informatics
+    \begin{itemize}
+    \itemsep 0em 
+        \item Core development of an extensive ML toolkit: WebAssembly-compiled models, interactive UI playground, automatic quality evaluation, MLFlow integration
+        \item Design, development and user feedback sessions of Sticky-meta: cross-spreadsheet data annotation tool. 
+        \item Led company-wide initiative on CI/CD optimization. Introduced tailored tools for regression detection and issue tracking to assist developers and QA team during release cycle 
+        \item \textbf{Technologies:} Dart, TypeScript
+    \end{itemize}
+\\
+ \textbf{Neiro.ai:} \textit{Backend Developer}, (2022-2023). Generative AI startup, social AI, chatbots.
+    \begin{itemize}
+       \itemsep 0em 
+        \item Built a cloud ML API gateway, integrating APIs across multiple teams, achieving: 99.9\% system uptime with regular health checks.
+        \item Rapid prototyping for PMF experiments: personalized chatbots and video creation services
+        \item \textbf{Technologies:} Python, Go, Google Cloud Platform, Kubernetes, gRPC
+    \end{itemize}
+\\
+\textbf{High Nu:} \textit{Infrastructure Developer}, (2022). High-frequency trading startup
+    \begin{itemize}
+      \itemsep 0em 
+        \item Expansion of market data sources by integration with cryptocurrency exchanges' APIs
+        \item Reduced data processing duration from 1 day to 5 minutes, enabling near-real-time strategy validation
+        \item \textbf{Technologies:} Rust, Python, Ansible
+    \end{itemize}
+\\
+ \textbf{Tinkoff.ru:} \textit{Backend Developer}, (2020-2022). AdTech department, mobile banking app, 20M user base
+    \begin{itemize}
+       \itemsep 0em 
+        \item Development of advertising technologies (such as DMP, DSP) used for in-app recommendations
+        \item Led R\&D for an MVP of content-based image search of creatives using similarity matching
+        \item \textbf{Technologies:} C++, Python, Aerospike, high-load systems, RTB advertising
+    \end{itemize}
+
+\sepspace
+
+\NewPart{Education}{}
+
+\begin{itemize}
+    \item \textbf{École Polytechnique (2023-2025)}, Master of Science and Technology \\  AI \& Advanced Visual Computing. \hfill GPA: 3.96/4.0
+    \item \textbf{Higher School of Economics (2019-2023)}, Bachelor of Science \\  Applied Mathematics and Informatics. Specialization in Distributed Systems. \hfill GPA: 8.8/10. 
+\end{itemize}
+
+
+
+%%% Open Source
+%%% ------------------------------------------------------------
+\NewPart{Open Source Contributions}{}
+
+\begin{itemize}
+    \item[\heartstab] \textbf{DSLab} \href{https://github.com/osukhoroslov/dslab}{github.com/osukhoroslov/dslab}
+    \begin{itemize}
+        \item Formal verification of distributed systems with model checker.
+    \end{itemize}
+    
+    \item[\heartstab] \textbf{grpc-gateway} \href{https://github.com/grpc-ecosystem/grpc-gateway}{github.com/grpc-ecosystem/grpc-gateway}
+    \begin{itemize}
+        \item Handling media data with multipart/form-data and macroses.
+    \end{itemize}
+    
+    \item[\heartstab] \textbf{knot-resolver} \href{https://github.com/CZ-NIC/knot-resolver}{github.com/CZ-NIC/knot-resolver}
+    \begin{itemize}
+        \item Anti-censorship feature for DNS resolver.
+    \end{itemize}
+\end{itemize}
+
+%%% Technical Projects
+%%% ------------------------------------------------------------
+\NewPart{Technical Projects}{}
+
+\begin{itemize}
+    % \item[\heartstab] \textbf{Starcraft AI Bot} \href{https://github.com/VladPyzh/starcraft-bot}{github.com/VladPyzh/starcraft-bot}
+    % \begin{itemize}
+    %     \item Created AI agent for StarCraft: Brood War using BWAPI. Designed architecture for build orders, resource management, combat control, and base expansion. Developed middleware to work around BWAPI limitations.
+    % \end{itemize}
+
+    \item[\heartstab] \textbf{Graphics app engine}
+    \begin{itemize}
+        \item Building a unified interface for realtime and step-based apps with support for OpenGL, WebGL and Canvas2D rendering.
+        \item WIP, the project is growing out of combination of two demo apps: \href{https://github.com/KiK0S/shrooms}{ECS-based game} and \href{https://github.com/KiK0S/edulcni/}{pluggable data structures visualizer}.
+    \end{itemize}
+    
+    \item[\heartstab] \textbf{Digitalization of Orienteering Maps} \href{https://github.com/KiK0S/maps-analyzer}{github.com/KiK0S/maps-analyzer}
+    \begin{itemize}
+        \item Application for analysis of orienteering city races using UNet for semantic segmentation of map photos, detecting race configuration and finding optimal routes.
+    \end{itemize}
+    
+    \item[\heartstab] \textbf{3D Rasterizer from Scratch} \href{https://github.com/KiK0S/3d-framework}{github.com/KiK0S/3d-framework}
+    \begin{itemize}
+        \item Library for processing 3D scenes and real-time rendering using only ``set pixel'' graphic primitive. Self-written rasterization and scene manager.
+    \end{itemize}
+    
+    \item[\heartstab] \textbf{LightCuts Ray Tracer} \href{https://github.com/KiK0S/my-lightcuts}{github.com/KiK0S/my-lightcuts}
+    \begin{itemize}
+        \item Implemented physically-based renderer using LightCuts algorithm for efficient many-lights scenes. Benchmarked different rendering methods showing significant reduction in lights evaluated while maintaining quality.
+    \end{itemize}
+    
+    % \item[\heartstab] \textbf{SimSearch} \href{https://github.com/KiK0S/similarity-search-coursework}{github.com/KiK0S/similarity-search-coursework}
+    % \begin{itemize}
+    %     \item Research on ANN problem and architecture of search engine for any object type. Led to content-based image search service with similarity matching.
+    % \end{itemize}
+\end{itemize}
+
+\sepspace
+
+%%% Competitive Programming
+%%% ------------------------------------------------------------
+\NewPart{Competitive Programming Achievements}{}
+
+\begin{itemize}
+    \item[\heartstab] \textbf{ICPC 2024-2025:}
+    \begin{itemize}
+        \item 1st place SWERC, Lyon (2024)
+        \item Bronze medal Europe Championship, Porto (2025)
+        \item World Finalists with Honors, Baku (2025)
+    \end{itemize}
+    % \item[\heartstab] \textbf{Stockly Student Contest:} 1st place, Paris (2025)
+    % \item[\heartstab] \textbf{ICPC Europe Championship:} Bronze medal, Porto (2025)
+    % \item[\heartstab] \textbf{ICPC Moscow Programming Contest:} 2nd award (2020)
+    \item[\heartstab] \textbf{National School Programming Olympiad:} Gold medalist, Innopolis (2019)
+    \item[\heartstab] \textbf{Open School Programming Olympiad:} Gold medalist, Moscow (2019)
+\end{itemize}
+
+\sepspace
+\NewPart{Languages}{}
+
+\SkillsEntry{English}{Advanced level}
+\SkillsEntry{Russian}{Native speaker}
+\SkillsEntry{French}{Intermediate level}
+
+%%% Languages
+%%% ------------------------------------------------------------
+
+\end{document} 
