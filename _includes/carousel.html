@@ -1,9 +1,14 @@
 {% assign images = include.images | default: "" | split: "," %}
 {% assign alts = include.alts | default: "" | split: "," %}
 {% assign carousel_id = include.id | default: include.images | slugify %}
+{% assign slide_count = images | size %}
+{% assign caption = include.caption | default: "" | strip %}
 
-<div class="carousel" data-carousel id="{{ carousel_id }}">
-  <button class="carousel-control prev" type="button" data-carousel-prev aria-label="Предыдущий слайд">‹</button>
+{% if caption != "" %}<figure class="carousel-figure">{% endif %}
+<div class="carousel{% if slide_count == 1 %} carousel-single{% endif %}" data-carousel id="{{ carousel_id }}">
+  {% if slide_count > 1 %}
+    <button class="carousel-control prev" type="button" data-carousel-prev aria-label="Предыдущий слайд">‹</button>
+  {% endif %}
 
   <div class="carousel-track" data-carousel-track>
     {% for image in images %}
@@ -19,18 +24,45 @@
       {% endif %}
 
       {% assign alt_override = alts[forloop.index0] | default: include.alt | default: page.title %}
+      {% assign media_src_downcase = img_src | downcase %}
+      {% assign is_video = false %}
+      {% assign media_type = '' %}
+      {% if media_src_downcase contains '.mp4' %}
+        {% assign is_video = true %}
+        {% assign media_type = 'video/mp4' %}
+      {% endif %}
+      {% if media_src_downcase contains '.webm' %}
+        {% assign is_video = true %}
+        {% assign media_type = 'video/webm' %}
+      {% endif %}
+      {% if media_src_downcase contains '.mov' %}
+        {% assign is_video = true %}
+        {% assign media_type = 'video/quicktime' %}
+      {% endif %}
 
       <div class="carousel-slide{% if forloop.first %} is-active{% endif %}" data-carousel-slide>
-        <img src="{{ img_src }}" alt="{{ alt_override | escape }}" loading="lazy">
+        {% if is_video %}
+          <video controls preload="auto" playsinline>
+            <source src="{{ img_src }}" type="{{ media_type }}">
+          </video>
+        {% else %}
+          <img src="{{ img_src }}" alt="{{ alt_override | escape }}" loading="lazy">
+        {% endif %}
       </div>
     {% endfor %}
   </div>
 
-  <button class="carousel-control next" type="button" data-carousel-next aria-label="Следующий слайд">›</button>
+  {% if slide_count > 1 %}
+    <button class="carousel-control next" type="button" data-carousel-next aria-label="Следующий слайд">›</button>
 
-  <div class="carousel-dots" data-carousel-dots>
-    {% for image in images %}
-      <button type="button" data-index="{{ forloop.index0 }}" class="{% if forloop.first %}is-active{% endif %}" aria-label="Перейти к слайду {{ forloop.index }}"></button>
-    {% endfor %}
-  </div>
+    <div class="carousel-dots" data-carousel-dots>
+      {% for image in images %}
+        <button type="button" data-index="{{ forloop.index0 }}" class="{% if forloop.first %}is-active{% endif %}" aria-label="Перейти к слайду {{ forloop.index }}"></button>
+      {% endfor %}
+    </div>
+  {% endif %}
 </div>
+{% if caption != "" %}
+  <figcaption class="carousel-caption">{{ caption }}</figcaption>
+</figure>
+{% endif %}

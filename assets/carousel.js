@@ -18,7 +18,12 @@ document.addEventListener('DOMContentLoaded', () => {
       current = ((index % total) + total) % total;
 
       slides.forEach((slide, idx) => {
-        slide.classList.toggle('is-active', idx === current);
+        const isActive = idx === current;
+        slide.classList.toggle('is-active', isActive);
+
+        if (!isActive) {
+          slide.querySelectorAll('video').forEach((video) => video.pause());
+        }
       });
 
       dots.forEach((dot, idx) => {
