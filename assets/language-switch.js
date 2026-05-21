@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Add click event listener to the switch
   switchElement.addEventListener('click', function() {
-    console.log('click');
     // Toggle the 'active' class on click
     if (this.classList.toggle('active')) {
       contentEn.classList.remove('active');
@@ -21,5 +20,9 @@ document.addEventListener("DOMContentLoaded", function() {
       contentEn.classList.add('active');
     }
     this.classList.toggle('inactive');
+
+    if (window.instgrm && window.instgrm.Embeds) {
+      window.instgrm.Embeds.process();
+    }
   });
 });

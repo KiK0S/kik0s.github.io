@@ -2,7 +2,28 @@
   <blockquote class="instagram-media"
     data-instgrm-permalink="{{ include.url }}"
     data-instgrm-version="14"
-    style="background: #fff; border: 0; margin: 0 auto; max-width: 540px; width: 100%;">
+    style="background: #fff; border: 0; margin: 0 auto; max-width: 540px; width: calc(100% - 2px);">
   </blockquote>
-  <script async src="https://www.instagram.com/embed.js"></script>
+
+  <script>
+    (function () {
+      var run = function () {
+        if (window.instgrm && window.instgrm.Embeds) {
+          window.instgrm.Embeds.process();
+        }
+      };
+
+      var existingScript = document.querySelector('script[src="https://www.instagram.com/embed.js"]');
+      if (existingScript) {
+        run();
+        return;
+      }
+
+      var script = document.createElement('script');
+      script.async = true;
+      script.src = 'https://www.instagram.com/embed.js';
+      script.onload = run;
+      document.body.appendChild(script);
+    })();
+  </script>
 </div>
