@@ -1,7 +1,8 @@
 ---
 ---
 [
-  {% for post in site.posts %}
+  {% assign posts = site.posts | where_exp: "post", "post.wip != true" | where_exp: "post", "post.draft != true" %}
+  {% for post in posts %}
     {
 
       "title"    : "{% if post.title != "" %}{{ post.title | escape }}{% else %}{{ post.excerpt | strip_html |  escape | strip }}{%endif%}",

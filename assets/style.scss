@@ -807,6 +807,21 @@ Modules - reusable parts of our design
   color: #fff;
 }
 
+.wip-callout {
+  margin: 24px 0;
+  padding: 14px 16px;
+  border-left: 4px solid #b8b8b8;
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  color: #555;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.wip-callout strong {
+  color: #444;
+}
+
 .pagination a, .pagination span {
   padding: 7px 18px;
   border: 1px solid #eee;

@@ -2,7 +2,8 @@
 layout: default
 ---
 <div class="posts">
-  {% for post in site.posts %}
+  {% assign posts = site.posts | where_exp: "post", "post.wip != true" | where_exp: "post", "post.draft != true" %}
+  {% for post in posts %}
     <article class="post">
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
