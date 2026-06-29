@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<article class="post detailed">
+<article class="post detailed"{% if page.wip or page.draft %} data-wip-annotations{% endif %}>
   <h1>{{ page.title }}</h1>
 
   <div>
@@ -26,7 +26,7 @@ layout: default
   {% if page.wip or page.draft %}
   <div class="wip-callout">
     <strong>Work in progress.</strong>
-    This post is still being written and will likely change.
+    This post is still being written and will likely change. Click any text line to save a browser-only note. Export from the console with <code>exportWipAnnotations()</code>, <code>exportWipAnnotations('json')</code>, or <code>exportWipAnnotations('tsv')</code>.
   </div>
   {% endif %}
 
@@ -51,3 +51,7 @@ layout: default
 
   {% include disqus.html %}
 </article>
+
+{% if page.wip or page.draft %}
+<script src="{{ site.baseurl }}/assets/wip-annotations.js" defer></script>
+{% endif %}
