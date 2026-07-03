@@ -1,5 +1,7 @@
 I am now officially a master! Well, technically I became one last September, but now I have the diploma, and finally I no longer need anything from Polytechnique, and Polytechnique no longer needs anything from me.
 
+{% include instagram-post.html url="https://www.instagram.com/p/DaV3xoADi8B/" %}
+
 I wrote about my experience during the [first semester](/ecole-after-3-months) at Polytechnique -- back then I did not understand that much about what surrounded me and was mostly sharing first impressions. I thought about writing about the second semester or the second year, but it kept turning into self-repetition -- my intuition had worked so well the first time that there was not much left to add.
 
 ## Second semester
