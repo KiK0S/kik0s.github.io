@@ -4,6 +4,7 @@ title:  Эколь политехник спустя 3 года
 permalink: /ecole-after-3-years
 excerpt_separator: <!--more-->
 categories: [france,lifestyle]
+multilanguage: true
 ---
 
 {% capture content-ru %}{% include_relative _contents/2026-06-26-ecole-polytechnique-3-years.ru.md %}{% endcapture %}
