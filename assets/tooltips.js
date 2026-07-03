@@ -57,12 +57,40 @@ document.addEventListener('DOMContentLoaded', () => {
     const button = trigger.querySelector('.inline-note__trigger') || trigger;
     let bubble = trigger.querySelector('.inline-note__bubble');
 
-    if (!bubble && trigger.dataset.tooltip) {
+    if (!bubble && (trigger.dataset.tooltip || trigger.dataset.tooltipImage || trigger.dataset.tooltipVideo)) {
       bubble = document.createElement('span');
       bubble.className = 'inline-note__bubble';
       bubble.id = trigger.id ? `${trigger.id}-tooltip` : `inline-note-${index + 1}`;
       bubble.setAttribute('role', 'tooltip');
-      bubble.textContent = trigger.dataset.tooltip;
+
+      if (trigger.dataset.tooltipImage) {
+        const image = document.createElement('img');
+        image.className = 'inline-note__media';
+        image.src = trigger.dataset.tooltipImage;
+        image.alt = trigger.dataset.tooltipImageAlt || '';
+        image.loading = 'lazy';
+        bubble.appendChild(image);
+      }
+
+      if (trigger.dataset.tooltipVideo) {
+        const video = document.createElement('video');
+        video.className = 'inline-note__media';
+        video.src = trigger.dataset.tooltipVideo;
+        video.muted = true;
+        video.loop = true;
+        video.autoplay = true;
+        video.playsInline = true;
+        video.setAttribute('aria-label', trigger.dataset.tooltipImageAlt || '');
+        bubble.appendChild(video);
+      }
+
+      if (trigger.dataset.tooltip) {
+        const text = document.createElement('span');
+        text.className = 'inline-note__text';
+        text.textContent = trigger.dataset.tooltip;
+        bubble.appendChild(text);
+      }
+
       trigger.appendChild(bubble);
     }
 
